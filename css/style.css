@@ -903,10 +903,15 @@ body.sidebar-opened {
     position: fixed;
     background-color: white;
     bottom: 0;
+    right: 0;
+    left: 0;
     z-index: 2000;
+    display: block;
 }
 
-
+.nav-mobile-fixed a img {
+    width: 40px;
+}
 
 
 
@@ -1029,10 +1034,6 @@ body.sidebar-opened {
 
     .nav-mobile-fixed {
         
-    }
-
-    .nav-mobile-fixed a img {
-        width: 40px;
     }
 
 }
