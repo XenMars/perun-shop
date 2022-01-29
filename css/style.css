@@ -1090,6 +1090,9 @@ body.sidebar-opened {
         bottom: 87px;
     }
 
+    .nav-mobile-fixed {
+        display: flex;
+    }
 
 }
 
