@@ -907,6 +907,7 @@ body.sidebar-opened {
     left: 0;
     z-index: 2000;
     display: block;
+    opacity: 0.99;
 }
 
 .nav-mobile-fixed a img {
