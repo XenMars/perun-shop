@@ -22,7 +22,6 @@ body {
     border: 1px solid #CCDFFF;
     border-radius: 5px;
     cursor: pointer;
-    margin-right: 55px;
     height: 50px;
     width: 50px;
 }
@@ -230,6 +229,8 @@ body.sidebar-opened {
 .logo-block {
     display: flex;
     flex-flow: column;
+    align-items: center;
+    margin-left: 50px;
 } 
 
 .logo-block span {
@@ -816,6 +817,22 @@ body.sidebar-opened {
         background: linear-gradient(180deg, #FF636D 3.65%, #F88245 50.92%, #F3A720 96.72%);
     }
 
+.opt-mobile-button {
+    background: linear-gradient(90deg, #FF636D 3.65%, #F88245 50.92%, #F3A720 96.72%);
+    border-radius: 30px;
+    color: white;
+    width: 130px;
+    height: 25px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 10px;
+    display: none;
+}
+
+.opt-mobile-button:hover {
+    background: linear-gradient(180deg, #FF636D 3.65%, #F88245 50.92%, #F3A720 96.72%);
+}
+
 .search-mobile {
     display: none;
 }
@@ -923,7 +940,21 @@ body.sidebar-opened {
     width: 40px;
 }
 
+.phone-mobile {
+        display: block;
+        text-decoration: none;
+        color: #CCDFFF;
+        padding-bottom: 13px;
+        display: none;
+    }
 
+.phone-mobile:hover {
+        color: white;
+    }
+
+.slider-mobile {
+    display: none;
+}
 
 @media (max-width: 1440px) {
 
@@ -1042,6 +1073,18 @@ body.sidebar-opened {
         display: block;
     }
 
+    .phone-tablet {
+        display: block;
+    }
+
+    .footer {
+        padding-bottom: 67px;
+    }
+    
+    .scroll-to-top a {
+        bottom: 87px;
+    }
+
 
 }
 
@@ -1059,7 +1102,34 @@ body.sidebar-opened {
         display: block;
     }
 
+    .slider-item img {
+        width: 600px;
+        border-radius: 30px;
+    }
 
+    .slick-arrow {
+        display: none;
+    }
+
+    .opt-mobile-button {
+        display: block;
+    }
+
+    .opt-tablet-button {
+        display: none;
+    }
+
+    .phone-mobile {
+        display: block;
+    }
+
+    .phone-tablet {
+        display: none;
+    }
+
+    .logo-block {
+        margin-left: 0;
+    }
 
 }
 
@@ -1067,11 +1137,4 @@ body.sidebar-opened {
     .container {
         max-width: 90%;
     }
-
-        .card-image {
-            height: 250px;
-        }
-        .card {
-            margin-right: 0;
-        }
 }
