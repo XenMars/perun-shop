@@ -869,6 +869,7 @@ body.sidebar-opened {
     cursor: pointer;
     margin-left: 15px;
     margin-right: 60px;
+    position: relative;
 }
 
 .menu-parent-item-footer li {
@@ -953,6 +954,10 @@ body.sidebar-opened {
     }
 
 .slider-mobile {
+    display: none;
+}
+
+.nav-mobile-fixed {
     display: none;
 }
 
@@ -1131,8 +1136,23 @@ body.sidebar-opened {
         margin-left: 0;
     }
 
+    .copyright{
+        width: 300px;
+    }
+
 }
 
-@media (max-width: 576px) {
+@media (max-width: 360px) {
+    .container {
+        max-width: 350px;
+    }
 
+    .slider-item img {
+        width: 350px;
+        border-radius: 30px;
+    }
+
+    .slick-arrow {
+        display: none;
+    }
 }
