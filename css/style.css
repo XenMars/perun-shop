@@ -1143,6 +1143,10 @@ body.sidebar-opened {
         width: 300px;
     }
 
+    .nav-mobile-fixed {
+        display: flex;
+    }
+
 }
 
 @media (max-width: 360px) {
@@ -1157,5 +1161,9 @@ body.sidebar-opened {
 
     .slick-arrow {
         display: none;
+    }
+
+    .nav-mobile-fixed {
+        display: flex;
     }
 }
