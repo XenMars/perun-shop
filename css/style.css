@@ -474,11 +474,6 @@ body.sidebar-opened {
 /*/slider*/
 
 
-.page-content {
-    display: grid;
-    grid-column-gap: 10px;
-}
-
 .page-title {
     text-align: center;
     font-weight: 600;
@@ -796,11 +791,13 @@ body.sidebar-opened {
 .brands-slider-tablet .slick-arrow.slick-prev {
     background: url('/img/arrow-prev.svg') 0 0 / 100% no-repeat;
     left: 0;
+    z-index: 50;
 }
 
 .brands-slider-tablet .slick-arrow.slick-next {
     background: url('/img/arrow-next.svg') 0 0 / 100% no-repeat;
     right: 0;
+    z-index: 50;
 }
 
 .opt-tablet-button {
@@ -900,12 +897,26 @@ body.sidebar-opened {
 }
 
 .nav-mobile-fixed {
-    position: fixed !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    position: fixed;
     background-color: white;
     bottom: 0;
     right: 0;
     left: 0;
     z-index: 2000;
+    display: flex;
+    padding-bottom: constant(safe-area-inset-bottom);
+    padding-bottom: env(safe-area-inset-bottom);
+}
+
+.nav-mobile-fixed a {
+    display: block;
+    flex-grow: 1;
+    justify-content: center;
+    -webkit-box-flex: 1;
+    padding: 12px 0;
+
 }
 
 .nav-mobile-fixed a img {
@@ -1035,74 +1046,27 @@ body.sidebar-opened {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 770px) {
     .container {
-        max-width: 560px;
-    }
-    .card {
-        width: 100%;
-    }
-    .menu-button {
-        display: block;
-    }
-    .navbar-panel {
-        position: fixed;
-        right: 0;
-        top: 0;
-        background-color: #fff;
-        z-index: 9;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        transition: transform 0.2s opacity 0.2s;
-        transform: translateX(100%);
-        opacity: 0;
+        max-width: 600px;
     }
 
-    .is-open {
-        transform: translateX(0%);
-        opacity: 1;
-    }
-    .navbar-menu {
-        margin-left: auto; 
-        margin-bottom: 20px;
-    }
-    .menu {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .menu-item:not(:last-child) {
-        margin: 0;
-        margin-bottom: 10px;
-    }
-    .button-group {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .close-menu {
-        display: block;
-        position: absolute;
-        right: 30px;
-        top: 30px;
-        cursor: pointer;
-        background-color: white;
-        border: none;
-    }
-    .search-button-text {
+    .tablet-slider2 {
         display: none;
     }
+
+    .slider-mobile {
+        display: block;
+    }
+
+
+
 }
 
 @media (max-width: 576px) {
     .container {
         max-width: 90%;
     }
-        .page-content {
-            grid-template-columns: 12fr;
-        }
 
         .card-image {
             height: 250px;
