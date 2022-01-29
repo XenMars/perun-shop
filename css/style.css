@@ -752,7 +752,7 @@ body.sidebar-opened {
 .brands-slider-tablet {
     width: 95%;
     margin: 100px auto;
-    display: flex;
+    display: none;
     position: relative;
 }
 
@@ -1024,6 +1024,10 @@ body.sidebar-opened {
 
     .brands-container {
         display: none;
+    }
+
+    .brands-slider-tablet {
+        display: flex;
     }
 
     .navbar-top {
