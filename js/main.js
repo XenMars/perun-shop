@@ -133,10 +133,19 @@ $(function() {
 
 $(document).ready(function(){
 	$('.brands-slider-tablet').slick({
-	centerMode: true,
-	centerPadding: '60px',
-	slidesToShow: 3,
-	infinite: true,
+		centerMode: true,
+		centerPadding: '60px',
+		slidesToShow: 3,
+		infinite: true,
+	});
+});
+
+$(document).ready(function(){
+	$('.search-mobile').click(function(){
+  		$(".search-mobile-fullscreen").css("display", "flex");
+	});
+	$('.close-search-mobile').click(function(){
+  $(".search-mobile-fullscreen").css("display", "none");
 });
 });
 
