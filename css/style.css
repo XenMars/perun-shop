@@ -253,7 +253,7 @@ body.sidebar-opened {
     background: linear-gradient(90deg, #FF636D 3.65%, #F88245 50.92%, #F3A720 96.72%);
     border-radius: 30px;
     color: #fff !important;
-    padding: 0 30px;
+    padding: 3px 30px;
     margin-left: 30px;
 }
 
@@ -965,6 +965,10 @@ body.sidebar-opened {
     display: none;
 }
 
+.location-mobile-menu {
+    display: none;
+}
+
 @media (max-width: 1440px) {
 
     .desktop-slider {
@@ -1132,11 +1136,16 @@ body.sidebar-opened {
     }
     
     .scroll-to-top a {
-        bottom: 87px;
+        bottom: 70px;
     }
 
     .nav-mobile-fixed {
         display: flex;
+    }
+
+    .location-mobile-menu {
+        display: block;
+        background-color: #F5F5F5;
     }
 
 }
