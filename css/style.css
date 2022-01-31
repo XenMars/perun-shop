@@ -22,9 +22,9 @@ body {
     border: 1px solid #CCDFFF;
     border-radius: 5px;
     cursor: pointer;
-    height: 60px;
-    width: 60px;
-    margin-top: 45px;
+    height: 50px;
+    width: 50px;
+    margin-top: 51px;
 }
 
 .menu-button svg {
