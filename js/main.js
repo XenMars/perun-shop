@@ -148,4 +148,3 @@ $(document).ready(function(){
   $(".search-mobile-fullscreen").css("display", "none");
 });
 });
-
