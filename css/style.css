@@ -364,7 +364,19 @@ body.sidebar-opened {
     padding-left: 22px;
     padding-right: 22px;
     color: white;
+    -webkit-appearance: none;
+    font-weight: 400;
+    outline:none;
 }
+
+.search-input[type="search"]::-webkit-input-placeholder {
+    color: white;
+}
+
+.search-input[type="search"]::-moz-placeholder {
+       color: white;
+       font-weight: 500;
+   }
 
 
 .search-button {
