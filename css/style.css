@@ -1092,14 +1092,14 @@ body.sidebar-opened {
 
     .close-search-mobile {
         border: none;
-        height: 30px;
+        height: 20px;
         background: transparent;
         cursor: pointer;
-        margin-top: 20px;
+        margin-top: 25px;
     }
 
     .close-search-mobile img {
-        height: 30px;
+        height: 20px;
     }
 
     .navbar {
