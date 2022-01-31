@@ -493,7 +493,7 @@ body.sidebar-opened {
 .cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .card {
@@ -683,7 +683,8 @@ body.sidebar-opened {
     padding-top: 38px;
 }
 
-.footer-nav ul, li {
+.footer-nav ul,
+.footer-nav li {
     list-style: none;
     text-align: center;
     margin-top: 14px;
@@ -979,12 +980,17 @@ body.sidebar-opened {
     }
 
     .container {
-        max-width: 1000px;
+        max-width: 1250px;
     }
 
     .tablet-slider {
-        max-width: 1000px;
+        max-width: 1250px;
         display: block;
+        margin: 0 auto;
+    }
+
+    .slider-item img {
+        width: 1250px;
     }
 
     .menu-button-desktop {
@@ -1012,6 +1018,17 @@ body.sidebar-opened {
         height: 30px;
     }
 
+}
+
+@media (max-width: 1280px) {
+    .container {
+        max-width: 1250px;
+    }
+
+    .slider-item img {
+        width: 1250px;
+        border-radius: 30px;
+    }
 }
 
 @media (max-width: 1000px) {
@@ -1189,10 +1206,6 @@ body.sidebar-opened {
         display: none;
     }
 
-    .cards {
-        justify-content: space-between;
-    }
-
     .card {
         margin-left: 10px;
         margin-right: 10px;
@@ -1281,10 +1294,6 @@ body.sidebar-opened {
         max-width: 419px;
     }
 
-    .cards {
-        justify-content: space-between;
-    }
-
     .card {
         margin-left: 10px;
         margin-right: 10px;
@@ -1304,10 +1313,6 @@ body.sidebar-opened {
 @media (max-width: 428px) {
     .container {
         max-width: 360px;
-    }
-
-    .cards {
-        justify-content: space-between;
     }
 
     .sidebar {
