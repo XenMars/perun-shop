@@ -509,6 +509,8 @@ body.sidebar-opened {
     text-align: center;
     width: 200px;
     font-weight: 400;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .card-header {
@@ -535,6 +537,7 @@ body.sidebar-opened {
 
 .card-link {
     text-decoration: none;
+    height: 55px;
 }
 
 .hidden-card {
@@ -1161,6 +1164,14 @@ body.sidebar-opened {
         max-width: 600px;
     }
 
+    .menu-button {
+        margin-bottom: 53px;
+    }
+
+    .search-mobile {
+        margin-bottom: 53px;
+    }
+
     .tablet-slider2 {
         display: none;
     }
@@ -1176,6 +1187,25 @@ body.sidebar-opened {
 
     .slider-mobile .slick-arrow {
         display: none;
+    }
+
+    .cards {
+        justify-content: space-between;
+    }
+
+    .card {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .card-image {
+        width: 170px;
+        height: 231px;
+
+    }
+
+    .card-title {
+        width: 170px;
     }
 
     .opt-mobile-button {
@@ -1246,9 +1276,38 @@ body.sidebar-opened {
     }
 }
 
+@media (max-width: 519px) {
+    .container {
+        max-width: 419px;
+    }
+
+    .cards {
+        justify-content: space-between;
+    }
+
+    .card {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .card img {
+        max-width: 185px;
+        max-height: 231px;
+    }
+
+    .card-title {
+        width: 185px;
+    }
+
+}
+
 @media (max-width: 428px) {
     .container {
-        max-width: 350px;
+        max-width: 360px;
+    }
+
+    .cards {
+        justify-content: space-between;
     }
 
     .sidebar {
@@ -1281,17 +1340,21 @@ body.sidebar-opened {
     }
 
     .card img {
-       max-width: 140px;
-       max-height: 175px;
+       max-width: 160px;
+       max-height: 200px;
     }
 
     .card-header h3 {
         font-size: 11px;
-        width: 140px;
+        width: 160px;
     }
 
     .card-price {
         font-size: 14px;
+    }
+
+    .card-link {
+        height: 43px;
     }
 
     .more-button {
