@@ -22,9 +22,14 @@ body {
     border: 1px solid #CCDFFF;
     border-radius: 5px;
     cursor: pointer;
-    height: 50px;
-    width: 50px;
-    margin-top: 50px;
+    height: 60px;
+    width: 60px;
+    margin-top: 45px;
+}
+
+.menu-button svg {
+    height: 45px;
+    width: 45px;
 }
 
 /* side-menu */
@@ -251,13 +256,13 @@ body.sidebar-opened {
     background: linear-gradient(90deg, #FF636D 3.65%, #F88245 50.92%, #F3A720 96.72%);
     border-radius: 30px;
     color: #fff !important;
-    padding: 3px 30px;
+    padding: 4px 20px;
     text-decoration: none;
     width: 100px;
     text-align: center;
     margin-left: 35px;
     margin-bottom: 14px;
-    margin-top: 14px;
+    margin-top: 12px;
 }
 
 .info-block a:hover {
@@ -1003,6 +1008,16 @@ body.sidebar-opened {
     display: none;
 }
 
+.info-phone-number a {
+    position: relative;
+    top: 3px;
+}
+
+.info {
+    position: relative;
+    top: 1px;
+}
+
 @media (max-width: 1440px) {
 
     .desktop-slider {
@@ -1030,11 +1045,19 @@ body.sidebar-opened {
     .menu-button-mobile {
         display: block;
         border: none;
-        margin-top: 50px;
+        margin-top: 49px;
+        height: 55px;
+        width: 55px;
+    }
+
+    .menu-button-mobile svg {
+        height: 35px;
+        width: 35px;
     }
 
     .menu-button-mobile:hover {
-        border: none;
+        border: 5px solid #fff;
+        border-radius: 10px;
     }
 
     .menu {
