@@ -77,6 +77,12 @@ body.sidebar-opened {
     background: white;
 }
 
+.openLvlTwo {
+    display: block;
+    animation: fadeIn;
+    animation-duration: 0.5s;
+}
+
 .level2 .menu-child-item:hover>.menuChildItemLvl3 .level3 {
     display: block;
     animation: fadeIn;
@@ -139,7 +145,6 @@ body.sidebar-opened {
 
 .sidebar ul li {
     line-height: 40px;
-    border-top: 1px solid #eee;
     margin: 0;
 }
 

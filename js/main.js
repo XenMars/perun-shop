@@ -23,12 +23,9 @@ $(document).ready(function() {
             $('.nav-icon3').css("left", "410px");
         }
     });
-
-
-
 });
 $(document).ready(function() {
-	        if(!$('.sidebar').hasClass('show'))
+	    if(!$('.sidebar').hasClass('show'))
         {
             $('.nav-icon3').addClass('open');
         }
@@ -36,8 +33,7 @@ $(document).ready(function() {
         {
             $('.nav-icon3').removeClass('open');
         }
-	});
-
+});
 document.addEventListener('DOMContentLoaded', () => {
 
 	// получаем все элементы с классом pushmenu
