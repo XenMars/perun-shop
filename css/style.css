@@ -37,12 +37,12 @@ body {
     cursor: pointer;
     z-index: 100;
     position: fixed;
-    left: 370px;
+    left: 210px;
     transition: left 0.4s ease;
 }
 
 .nav-icon3.show {
-    left: -370px;
+    left: -210px;
 }
 
 .nav-icon3 img {
@@ -53,6 +53,41 @@ body {
 body.sidebar-opened {
     overflow: hidden;
 }
+
+.menuChildItemLvl2 .level2 {
+    display: none;
+    position: fixed;
+    width: 200px;
+    left: 200px;
+    top: 0;
+    list-style: none;
+    height: 100%;
+    background: white;
+}
+
+.menuChildItemLvl3 .level3 {
+    display: none;
+    position: fixed;
+    width: 200px;
+    left: 400px;
+    top: 0;
+    list-style: none;
+    height: 100%;
+    background: white;
+}
+
+.level2 .menu-child-item:hover>.menuChildItemLvl3 .level3 {
+    display: block;
+    animation: fadeIn;
+    animation-duration: 0.5s;
+}
+
+.menu-parent-item:hover>.menuChildItemLvl2 .level2 {
+    display: block;
+    animation: fadeIn;
+    animation-duration: 0.5s;
+}
+
 
 .hidden-overley {
     position: fixed;
@@ -76,9 +111,9 @@ body.sidebar-opened {
 .sidebar {
     position: fixed;
     z-index: 100;
-    width: 360px;
+    width: 200px;
     height: 100%;
-    left: -360px;
+    left: -200px;
     top: 0;
     background: #fff;
     transition: left 0.2s ease;
@@ -116,8 +151,8 @@ body.sidebar-opened {
     position: relative;
     color: #757575;
     text-decoration: none;
-    font-size: 14px;
-    padding-left: 30px;
+    font-size: 13px;
+    padding-left: 15px;
     font-weight: 500;
     display: block;
     width: 100%;
@@ -126,18 +161,19 @@ body.sidebar-opened {
 
 .sidebar ul li a:hover {
     cursor: pointer;
-    background: #B7D2FF;
+    background: #4d90fe;
     border-radius: 30px;
     color: white;
 }
 
-.sidebar ul ul {
-    position: static;
-    display: none;
-}
 
 .sidebar ul .sub-menu.show {
     display: block;
+}
+
+.sub-menu {
+    position: absolute;
+    left: 250px;
 }
 
 .sidebar ul ul li {
@@ -146,14 +182,13 @@ body.sidebar-opened {
 }
 
 .sidebar ul ul li a {
-    font-size: 14px;
+    font-size: 13px;
     color: #757575;
-    padding-left: 40px;
+    padding-left: 15px;
 }
 
-
 .sidebar ul ul li a:hover {
-    background: #B7D2FF;
+    background: #4d90fe;
     border-radius: 30px;
     color: white;
 }

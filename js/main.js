@@ -1,3 +1,30 @@
+$(document).ready(function() {
+    $('.menu-parent-item').hover(function() {
+        if(!$('.menu-parent-item').hasClass('openDone'))
+        {
+            $('.menu-parent-item').addClass('openDone');
+            $('.nav-icon3').css("left", "410px");
+        }
+        else
+        {
+            $('.menu-parent-item').removeClass('openDone');
+            $('.nav-icon3').css("left", "210px");
+        }
+    });
+    $('.menu-child-item').hover(function() {
+        if(!$('.menu-child-item').hasClass('openDone'))
+        {
+            $('.menu-child-item').addClass('openDone');
+            $('.nav-icon3').css("left", "610px");
+        }
+        else
+        {
+            $('.menu-child-item').removeClass('openDone');
+            $('.nav-icon3').css("left", "410px");
+        }
+    });
+});
+
 document.addEventListener('DOMContentLoaded', () => {
 
 	// получаем все элементы с классом pushmenu
@@ -42,6 +69,8 @@ document.addEventListener('DOMContentLoaded', () => {
 		sidebarAccordeon[i].addEventListener('click', accordeonFunction, false);
 	}
 });
+
+
 
 let flag = false;
 $('.dropdown1').click(function () {
