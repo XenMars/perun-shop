@@ -157,8 +157,7 @@ body.sidebar-opened {
     margin-right: 10px;
 }
 
-.sidebar ul li a:hover,
-.sidebar ul li a:focus {
+.sidebar ul li a:hover {
     cursor: pointer;
     background: #4d90fe;
     border-radius: 30px;
