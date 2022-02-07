@@ -1064,6 +1064,10 @@ body.sidebar-opened {
     top: 1px;
 }
 
+.back-mobile-button {
+    display: none;
+}
+
 @media (max-width: 1440px) {
 
     .desktop-slider {
@@ -1301,6 +1305,31 @@ body.sidebar-opened {
 @media (max-width: 770px) {
     .container {
         max-width: 600px;
+    }
+
+    .back-mobile-button {
+        display: block;
+        background: #dbdbdb;
+    }
+
+    .back-mobile-button a:focus,
+    .back-mobile-button a:hover {
+        background: #bebebe !important;
+        border-radius: 0px !important;
+        color: #757575 !important;
+    }
+
+    .back-mobile-button span {
+        padding: 10px;
+    }
+
+    .back-mobile-button img {
+        vertical-align: middle;
+        height: 20px;
+    }
+
+    .close-menu-lvl-2 {
+        display: none !important;
     }
 
     .menuChildItemLvl2 .level2 {

@@ -313,7 +313,7 @@ $(document).ready(function() {
 
 
 $(document).mouseover(function() {
-    if($('.level2:visible').length == 0)
+    if($('.level2:visible').length == 0 && ($(window).width() >= '770'))
     {
 		$('.nav-icon3').removeClass('open2lvl');
     }
@@ -324,7 +324,7 @@ $(document).mouseover(function() {
 });
 
 $(document).mouseover(function() {
-    if($('.level3:visible').length == 0)
+    if($('.level3:visible').length == 0 && ($(window).width() >= '770'))
     {
 		$('.nav-icon3').removeClass('open3lvl');
     }
@@ -333,6 +333,87 @@ $(document).mouseover(function() {
         $('.nav-icon3').addClass('open3lvl'); 
     }
 });
+
+$(".back-mobile-button-001").click(function() {
+    $(".lvl-2-content-001").toggle();
+	return false;
+});
+
+$(".back-mobile-button-002").click(function() {
+    $(".lvl-2-content-002").toggle();
+	return false;
+});
+
+$(".back-mobile-button-003").click(function() {
+    $(".lvl-2-content-003").toggle();
+	return false;
+});
+
+$(".back-mobile-button-004").click(function() {
+    $(".lvl-2-content-004").toggle();
+	return false;
+});
+
+$(".back-mobile-button-005").click(function() {
+    $(".lvl-2-content-005").toggle();
+	return false;
+});
+
+$(".back-mobile-button-006").click(function() {
+    $(".lvl-2-content-006").toggle();
+	return false;
+});
+
+$(".back-mobile-button-007").click(function() {
+    $(".lvl-2-content-007").toggle();
+	return false;
+});
+
+$(".back-mobile-button-008").click(function() {
+    $(".lvl-2-content-008").toggle();
+	return false;
+});
+
+$(".back-mobile-button-02-001").click(function() {
+    $(".lvl-3-content-001").toggle();
+	return false;
+});
+
+$(".back-mobile-button-02-002").click(function() {
+    $(".lvl-3-content-002").toggle();
+	return false;
+});
+
+$(".back-mobile-button-02-003").click(function() {
+    $(".lvl-3-content-003").toggle();
+	return false;
+});
+
+$(".back-mobile-button-02-004").click(function() {
+    $(".lvl-3-content-004").toggle();
+	return false;
+});
+
+$(".back-mobile-button-02-005").click(function() {
+    $(".lvl-3-content-005").toggle();
+	return false;
+});
+
+$(".back-mobile-button-02-006").click(function() {
+    $(".lvl-3-content-006").toggle();
+	return false;
+});
+
+$(".back-mobile-button-02-007").click(function() {
+    $(".lvl-3-content-007").toggle();
+	return false;
+});
+
+$(".back-mobile-button-02-008").click(function() {
+    $(".lvl-3-content-008").toggle();
+	return false;
+});
+
 
 
 $(document).click(function() {
