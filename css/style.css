@@ -37,12 +37,20 @@ body {
     cursor: pointer;
     z-index: 100;
     position: fixed;
-    left: 210px;
+    left: -610px;
     transition: left 0.4s ease;
 }
 
 .nav-icon3.open {
-    left: -210px !important;
+    left: 210px;
+}
+
+.nav-icon3.open2lvl {
+    left: 410px;
+}
+
+.nav-icon3.open3lvl {
+    left: 610px;
 }
 
 
@@ -78,18 +86,6 @@ body.sidebar-opened {
 }
 
 .openLvlTwo {
-    display: block;
-    animation: fadeIn;
-    animation-duration: 0.5s;
-}
-
-.level2 .menu-child-item:hover>.menuChildItemLvl3 .level3 {
-    display: block;
-    animation: fadeIn;
-    animation-duration: 0.5s;
-}
-
-.menu-parent-item:hover>.menuChildItemLvl2 .level2 {
     display: block;
     animation: fadeIn;
     animation-duration: 0.5s;
@@ -148,10 +144,6 @@ body.sidebar-opened {
     margin: 0;
 }
 
-.last-menu-item {
-    padding-bottom: 20px;
-}
-
 .sidebar ul li a {
     box-sizing: border-box;
     position: relative;
@@ -165,7 +157,8 @@ body.sidebar-opened {
     margin-right: 10px;
 }
 
-.sidebar ul li a:hover {
+.sidebar ul li a:hover,
+.sidebar ul li a:focus {
     cursor: pointer;
     background: #4d90fe;
     border-radius: 30px;
@@ -199,9 +192,18 @@ body.sidebar-opened {
     color: white;
 }
 
+.sidebar ul li:hover {
+    margin-left: 10px;
+    transition: 0.5s;
+    background: #dfdede;
+    border-radius: 30px;
+}
+
 .sidebar ul ul li:hover {
     margin-left: 10px;
     transition: 0.5s;
+    background: #dfdede;
+    border-radius: 30px;
 }
 
 .sidebar ul li a i:before {
@@ -1301,6 +1303,16 @@ body.sidebar-opened {
         max-width: 600px;
     }
 
+    .menuChildItemLvl2 .level2 {
+        left: 0;
+        z-index: 1000;
+    }
+
+    .menuChildItemLvl3 .level3 {
+        left: 0;
+        z-index: 1001;
+    }
+
     .menu-button {
         margin-bottom: 53px;
     }
@@ -1436,12 +1448,7 @@ body.sidebar-opened {
     }
 
     .sidebar {
-        left: -280px;
-        width: 280px;
-    }
-
-    .nav-icon3 {
-        left: 290px;
+        width: 200px;
     }
 
     .slider-mobile {

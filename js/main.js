@@ -1,39 +1,374 @@
 $(document).ready(function() {
-    $('.menu-parent-item').hover(function() {
-        if(!$('.menu-parent-item').hasClass('openDone'))
-        {
-            $('.menu-parent-item').addClass('openDone');
-            $('.nav-icon3').css("left", "410px");
-        }
-        else
-        {
-            $('.menu-parent-item').removeClass('openDone');
-            $('.nav-icon3').css("left", "210px");
-        }
+		$(".item-001").mouseover(function() {
+        $(".lvl-2-content-001").show();
+        $(".lvl-2-content-002").hide();
+		$(".lvl-2-content-003").hide();
+		$(".lvl-2-content-004").hide();
+		$(".lvl-2-content-005").hide();
+		$(".lvl-2-content-006").hide();
+		$(".lvl-2-content-007").hide();
+		$(".lvl-2-content-008").hide();
     });
-    $('.menu-child-item').hover(function() {
-        if(!$('.menu-child-item').hasClass('openDone'))
-        {
-            $('.menu-child-item').addClass('openDone');
-            $('.nav-icon3').css("left", "610px");
-        }
-        else
-        {
-            $('.menu-child-item').removeClass('openDone');
-            $('.nav-icon3').css("left", "410px");
-        }
+    
+        $(".item-002").mouseover(function() {
+        $(".lvl-2-content-001").hide();
+        $(".lvl-2-content-002").show();
+		$(".lvl-2-content-003").hide();
+		$(".lvl-2-content-004").hide();
+		$(".lvl-2-content-005").hide();
+		$(".lvl-2-content-006").hide();
+		$(".lvl-2-content-007").hide();
+		$(".lvl-2-content-008").hide();
     });
+
+        $(".item-003").mouseover(function() {
+        $(".lvl-2-content-001").hide();
+        $(".lvl-2-content-002").hide();
+		$(".lvl-2-content-003").show();
+		$(".lvl-2-content-004").hide();
+		$(".lvl-2-content-005").hide();
+		$(".lvl-2-content-006").hide();
+		$(".lvl-2-content-007").hide();
+		$(".lvl-2-content-008").hide();
+    });
+
+        $(".item-004").mouseover(function() {
+        $(".lvl-2-content-001").hide();
+        $(".lvl-2-content-002").hide();
+		$(".lvl-2-content-003").hide();
+		$(".lvl-2-content-004").show();
+		$(".lvl-2-content-005").hide();
+		$(".lvl-2-content-006").hide();
+		$(".lvl-2-content-007").hide();
+		$(".lvl-2-content-008").hide();
+    });
+
+        $(".item-005").mouseover(function() {
+        $(".lvl-2-content-001").hide();
+        $(".lvl-2-content-002").hide();
+		$(".lvl-2-content-003").hide();
+		$(".lvl-2-content-004").hide();
+		$(".lvl-2-content-005").show();
+		$(".lvl-2-content-006").hide();
+		$(".lvl-2-content-007").hide();
+		$(".lvl-2-content-008").hide();
+    });
+
+        $(".item-006").mouseover(function() {
+        $(".lvl-2-content-001").hide();
+        $(".lvl-2-content-002").hide();
+		$(".lvl-2-content-003").hide();
+		$(".lvl-2-content-004").hide();
+		$(".lvl-2-content-005").hide();
+		$(".lvl-2-content-006").show();
+		$(".lvl-2-content-007").hide();
+		$(".lvl-2-content-008").hide();
+    });
+
+        $(".item-007").mouseover(function() {
+        $(".lvl-2-content-001").hide();
+        $(".lvl-2-content-002").hide();
+		$(".lvl-2-content-003").hide();
+		$(".lvl-2-content-004").hide();
+		$(".lvl-2-content-005").hide();
+		$(".lvl-2-content-006").hide();
+		$(".lvl-2-content-007").show();
+		$(".lvl-2-content-008").hide();
+    });
+
+        $(".item-008").mouseover(function() {
+        $(".lvl-2-content-001").hide();
+        $(".lvl-2-content-002").hide();
+		$(".lvl-2-content-003").hide();
+		$(".lvl-2-content-004").hide();
+		$(".lvl-2-content-005").hide();
+		$(".lvl-2-content-006").hide();
+		$(".lvl-2-content-007").hide();
+		$(".lvl-2-content-008").show();
+    });
+
+        $(".item-single").mouseover(function() {
+        $(".lvl-2-content-001").hide();
+        $(".lvl-2-content-002").hide();
+		$(".lvl-2-content-003").hide();
+		$(".lvl-2-content-004").hide();
+		$(".lvl-2-content-005").hide();
+		$(".lvl-2-content-006").hide();
+		$(".lvl-2-content-007").hide();
+		$(".lvl-2-content-008").hide();
+    });
+
+        $(".lvl2-item-single").mouseover(function() {
+        $(".lvl-3-content-001").hide();
+		$(".lvl-3-content-002").hide();
+		$(".lvl-3-content-003").hide();
+		$(".lvl-3-content-004").hide();
+		$(".lvl-3-content-005").hide();
+		$(".lvl-3-content-006").hide();
+    });
+
+        $(".item-lvl2-001").mouseover(function() {
+        $(".lvl-3-content-001").show();
+    });
+
+        $(".item-lvl2-002").mouseover(function() {
+        $(".lvl-3-content-002").show();
+		$(".lvl-3-content-003").hide();
+		$(".lvl-3-content-004").hide();
+    });
+
+        $(".item-lvl2-003").mouseover(function() {
+        $(".lvl-3-content-002").hide();
+		$(".lvl-3-content-003").show();
+		$(".lvl-3-content-004").hide();
+    });
+
+        $(".item-lvl2-004").mouseover(function() {
+        $(".lvl-3-content-002").hide();
+		$(".lvl-3-content-003").hide();
+		$(".lvl-3-content-004").show();
+    });
+
+        $(".item-lvl2-005").mouseover(function() {
+		$(".lvl-3-content-005").show();
+    });
+
+        $(".item-lvl2-006").mouseover(function() {
+		$(".lvl-3-content-006").show();
+    });
+
+        $(".item-lvl2-007").mouseover(function() {
+		$(".lvl-3-content-007").show();
+		$(".lvl-3-content-008").hide();
+    });
+
+        $(".item-lvl2-008").mouseover(function() {
+		$(".lvl-3-content-007").hide();
+		$(".lvl-3-content-008").show();
+    });
+
+
+
+		$(".item-001").click(function() {
+        $(".lvl-2-content-001").show();
+        $(".lvl-2-content-002").hide();
+		$(".lvl-2-content-003").hide();
+		$(".lvl-2-content-004").hide();
+		$(".lvl-2-content-005").hide();
+		$(".lvl-2-content-006").hide();
+		$(".lvl-2-content-007").hide();
+		$(".lvl-2-content-008").hide();
+    });
+    
+        $(".item-002").click(function() {
+        $(".lvl-2-content-001").hide();
+        $(".lvl-2-content-002").show();
+		$(".lvl-2-content-003").hide();
+		$(".lvl-2-content-004").hide();
+		$(".lvl-2-content-005").hide();
+		$(".lvl-2-content-006").hide();
+		$(".lvl-2-content-007").hide();
+		$(".lvl-2-content-008").hide();
+    });
+
+        $(".item-003").click(function() {
+        $(".lvl-2-content-001").hide();
+        $(".lvl-2-content-002").hide();
+		$(".lvl-2-content-003").show();
+		$(".lvl-2-content-004").hide();
+		$(".lvl-2-content-005").hide();
+		$(".lvl-2-content-006").hide();
+		$(".lvl-2-content-007").hide();
+		$(".lvl-2-content-008").hide();
+    });
+
+        $(".item-004").click(function() {
+        $(".lvl-2-content-001").hide();
+        $(".lvl-2-content-002").hide();
+		$(".lvl-2-content-003").hide();
+		$(".lvl-2-content-004").show();
+		$(".lvl-2-content-005").hide();
+		$(".lvl-2-content-006").hide();
+		$(".lvl-2-content-007").hide();
+		$(".lvl-2-content-008").hide();
+    });
+
+        $(".item-005").click(function() {
+        $(".lvl-2-content-001").hide();
+        $(".lvl-2-content-002").hide();
+		$(".lvl-2-content-003").hide();
+		$(".lvl-2-content-004").hide();
+		$(".lvl-2-content-005").show();
+		$(".lvl-2-content-006").hide();
+		$(".lvl-2-content-007").hide();
+		$(".lvl-2-content-008").hide();
+    });
+
+        $(".item-006").click(function() {
+        $(".lvl-2-content-001").hide();
+        $(".lvl-2-content-002").hide();
+		$(".lvl-2-content-003").hide();
+		$(".lvl-2-content-004").hide();
+		$(".lvl-2-content-005").hide();
+		$(".lvl-2-content-006").show();
+		$(".lvl-2-content-007").hide();
+		$(".lvl-2-content-008").hide();
+    });
+
+        $(".item-007").click(function() {
+        $(".lvl-2-content-001").hide();
+        $(".lvl-2-content-002").hide();
+		$(".lvl-2-content-003").hide();
+		$(".lvl-2-content-004").hide();
+		$(".lvl-2-content-005").hide();
+		$(".lvl-2-content-006").hide();
+		$(".lvl-2-content-007").show();
+		$(".lvl-2-content-008").hide();
+    });
+
+        $(".item-008").click(function() {
+        $(".lvl-2-content-001").hide();
+        $(".lvl-2-content-002").hide();
+		$(".lvl-2-content-003").hide();
+		$(".lvl-2-content-004").hide();
+		$(".lvl-2-content-005").hide();
+		$(".lvl-2-content-006").hide();
+		$(".lvl-2-content-007").hide();
+		$(".lvl-2-content-008").show();
+    });
+
+        $(".item-single").click(function() {
+        $(".lvl-2-content-001").hide();
+        $(".lvl-2-content-002").hide();
+		$(".lvl-2-content-003").hide();
+		$(".lvl-2-content-004").hide();
+		$(".lvl-2-content-005").hide();
+		$(".lvl-2-content-006").hide();
+		$(".lvl-2-content-007").hide();
+		$(".lvl-2-content-008").hide();
+    });
+
+        $(".lvl2-item-single").click(function() {
+        $(".lvl-3-content-001").hide();
+		$(".lvl-3-content-002").hide();
+		$(".lvl-3-content-003").hide();
+		$(".lvl-3-content-004").hide();
+		$(".lvl-3-content-005").hide();
+		$(".lvl-3-content-006").hide();
+    });
+
+        $(".item-lvl2-001").click(function() {
+        $(".lvl-3-content-001").show();
+    });
+
+        $(".item-lvl2-002").click(function() {
+        $(".lvl-3-content-002").show();
+		$(".lvl-3-content-003").hide();
+		$(".lvl-3-content-004").hide();
+    });
+
+        $(".item-lvl2-003").click(function() {
+        $(".lvl-3-content-002").hide();
+		$(".lvl-3-content-003").show();
+		$(".lvl-3-content-004").hide();
+    });
+
+        $(".item-lvl2-004").click(function() {
+        $(".lvl-3-content-002").hide();
+		$(".lvl-3-content-003").hide();
+		$(".lvl-3-content-004").show();
+    });
+
+        $(".item-lvl2-005").click(function() {
+		$(".lvl-3-content-005").show();
+    });
+
+        $(".item-lvl2-006").click(function() {
+		$(".lvl-3-content-006").show();
+    });
+
+        $(".item-lvl2-007").click(function() {
+		$(".lvl-3-content-007").show();
+		$(".lvl-3-content-008").hide();
+    });
+
+        $(".item-lvl2-008").click(function() {
+		$(".lvl-3-content-007").hide();
+		$(".lvl-3-content-008").show();
+    });
+
 });
+
+
 $(document).ready(function() {
-	    if(!$('.sidebar').hasClass('show'))
-        {
-            $('.nav-icon3').addClass('open');
-        }
-        else
+	    if(!$('.sidebar').hasClass('.show'))
         {
             $('.nav-icon3').removeClass('open');
         }
+        else
+        {
+            $('.nav-icon3').addClass('open');
+        }
 });
+
+
+$(document).mouseover(function() {
+    if($('.level2:visible').length == 0)
+    {
+		$('.nav-icon3').removeClass('open2lvl');
+    }
+    else
+    {
+        $('.nav-icon3').addClass('open2lvl'); 
+    }
+});
+
+$(document).mouseover(function() {
+    if($('.level3:visible').length == 0)
+    {
+		$('.nav-icon3').removeClass('open3lvl');
+    }
+    else
+    {
+        $('.nav-icon3').addClass('open3lvl'); 
+    }
+});
+
+
+$(document).click(function() {
+    if($('.level2:visible').length == 0)
+    {
+		$('.nav-icon3').removeClass('open2lvl');
+    }
+    else
+    {
+        $('.nav-icon3').addClass('open2lvl'); 
+    }
+});
+
+
+$(document).click(function() {
+    if($('.level3:visible').length == 0)
+    {
+		$('.nav-icon3').removeClass('open3lvl');
+    }
+    else
+    {
+        $('.nav-icon3').addClass('open3lvl'); 
+    }
+});
+
+
+$('.hidden-overley').click(function () {
+	$('.level2').hide();
+	$('.level3').hide();
+});
+
+$('.nav-icon3').click(function () {
+	$('.level2').hide();
+	$('.level3').hide();
+});
+
 document.addEventListener('DOMContentLoaded', () => {
 
 	// получаем все элементы с классом pushmenu
@@ -46,7 +381,6 @@ document.addEventListener('DOMContentLoaded', () => {
 	hiddenOverley.addEventListener('click', (e) => {
 		e.currentTarget.classList.toggle('show');
 		document.querySelector('.sidebar').classList.toggle('show');
-		document.querySelector('.nav-icon3').classList.toggle('show');
 		document.querySelector('body').classList.toggle('sidebar-opened');
 		for( i=0; i < pushmenu.length; i++ ){
 				pushmenu[i].classList.toggle('open');
@@ -56,9 +390,8 @@ document.addEventListener('DOMContentLoaded', () => {
 	const pushmenuFunction = function() {
 		document.querySelector('.pushmenu').classList.toggle('open');
 		document.querySelector('.sidebar').classList.toggle('show');
-		document.querySelector('.nav-icon3').classList.toggle('show');
 		document.querySelector('.hidden-overley').classList.toggle('show');
-		document.body.classList.toggle('sidebar-opened')
+		document.body.classList.toggle('sidebar-opened');
 		
 	};
 
