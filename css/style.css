@@ -1342,6 +1342,11 @@ body.sidebar-opened {
         z-index: 1001;
     }
 
+    .sidebar ul li a {
+        font-size: 14px;
+        padding: 7px;
+    }
+
     .menu-button {
         margin-bottom: 53px;
     }
