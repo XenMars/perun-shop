@@ -150,7 +150,7 @@ $(document).ready(function() {
 
 
 		$(".item-001").click(function() {
-        $(".lvl-2-content-001").css("display", "block");
+        $(".lvl-2-content-001").show();
         $(".lvl-2-content-002").hide();
 		$(".lvl-2-content-003").hide();
 		$(".lvl-2-content-004").hide();
@@ -335,18 +335,7 @@ $(document).mouseover(function() {
     }
 });
 
-$('.menu-button').click(function() {
-	if ($(window).width() < 770 || $('.sidebar').hasClass('show'))
-	{
-	$('.nav-icon3').addClass('close-button-mobile-fixed');
-	}
-});
 
-$('.hidden-overley').click(function() {
-
-	$('.nav-icon3').removeClass('close-button-mobile-fixed');
-
-});
 
 $('.nav-icon3').click(function() {
 
