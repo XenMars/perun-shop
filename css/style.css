@@ -1298,6 +1298,15 @@ body.sidebar-opened {
         background: #dbdbdb;
     }
 
+    .sidebar ul li a:hover {
+        cursor: pointer;
+        background: transparent;
+        border-radius: 0px;
+        color: #757575;
+        margin-left: 0px;
+        transition: 0s;
+    }
+
     .back-mobile-button a:focus,
     .back-mobile-button a:hover {
         background: #bebebe !important;
