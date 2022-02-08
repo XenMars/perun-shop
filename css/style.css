@@ -1330,7 +1330,7 @@ body.sidebar-opened {
 
     .sidebar {
         width: 100%;
-        left: -500px;
+        left: -1000px;
     }
 
     .menu-mobile-heder {
