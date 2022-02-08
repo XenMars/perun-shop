@@ -1300,11 +1300,12 @@ body.sidebar-opened {
 
     .sidebar ul li a:hover {
         cursor: pointer;
-        background: transparent;
+        background: #dbdbdb;
         border-radius: 0px;
         color: #757575;
         margin-left: 0px;
         transition: 0s;
+        width: 200px;
     }
 
     .back-mobile-button a:focus,
