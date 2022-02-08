@@ -335,12 +335,6 @@ $(document).mouseover(function() {
     }
 });
 
-$('.menu-button').click(function() {
-	if ($(window).width() < 770 || $('.sidebar').hasClass('show'))
-	{
-	$('.nav-icon3').addClass('close-button-mobile-fixed');
-	}
-});
 
 $('.hidden-overley').click(function() {
 
@@ -468,6 +462,11 @@ $('.hidden-overley').click(function () {
 });
 
 $('.nav-icon3').click(function () {
+	$('.level2').hide();
+	$('.level3').hide();
+});
+
+$('.nav-icon-mobile').click(function () {
 	$('.level2').hide();
 	$('.level3').hide();
 });
