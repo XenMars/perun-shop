@@ -1328,6 +1328,10 @@ body.sidebar-opened {
         z-index: 1001;
     }
 
+    #menu-main-menu li:first-child {
+        margin-top: 50px;
+    }
+
     .sidebar ul li a {
         font-size: 14px;
         padding: 7px;
