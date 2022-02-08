@@ -395,7 +395,7 @@ body.sidebar-opened {
 .search-panel:hover .search-input,
 .search-panel:hover .search-button,
 .search-panel:hover {
-    background: black;
+    background: #5d8cd8;
     transition: 0.3s;
 }
 
