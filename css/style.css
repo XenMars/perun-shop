@@ -1294,6 +1294,10 @@ body.sidebar-opened {
         max-width: 600px;
     }
 
+    .lvl-2-content-001 {
+        z-index: 1230;
+    }
+
     .back-mobile-button {
         display: block;
         background: #dbdbdb;
