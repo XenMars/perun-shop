@@ -406,7 +406,7 @@ body.sidebar-opened {
 
 .search-input {
     flex-grow: 1;
-    background: #8AB6FF;
+    background: #8AB6FF !important;
     border-radius: 30px;
     border: none;
     padding-left: 22px;
@@ -1006,6 +1006,7 @@ body.sidebar-opened {
     left: 0;
     z-index: 2000;
     display: flex;
+    height: 55px;
     padding-bottom: constant(safe-area-inset-bottom);
     padding-bottom: env(safe-area-inset-bottom);
 }
