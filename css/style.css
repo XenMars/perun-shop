@@ -1314,6 +1314,16 @@ body.sidebar-opened {
     .container {
         max-width: 600px;
     }
+
+    .search-panel:hover .search-input,
+    .search-panel:hover .search-button,
+    .search-panel:hover {
+        background: #8AB6FF;
+    }
+
+    .search-input:focus {
+        background: #8AB6FF !important;
+    }
     .back-mobile-button {
         display: block;
     }
