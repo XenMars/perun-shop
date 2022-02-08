@@ -392,12 +392,13 @@ body.sidebar-opened {
     flex-grow: 10;
 }
 
-.search-panel:hover .search-input,
+.search-panel .search-input:hover,
 .search-panel:hover .search-button,
 .search-panel:hover {
-    background: #5d8cd8;
+    background: #5d8cd8 !important;
     transition: 0.3s;
 }
+
 
 .opt-button-desktop {
     flex-grow: 10;
@@ -414,22 +415,21 @@ body.sidebar-opened {
     color: white;
     -webkit-appearance: none;
     font-weight: 400;
-    outline:none;
+    outline: none;
 }
 
 .search-input:focus {
    background: #8AB6FF !important;
+   border-radius: 30px;
 }
 
 .search-input[type="search"]::-webkit-input-placeholder {
     color: white;
-    background: #8AB6FF;
 }
 
 .search-input[type="search"]::-moz-placeholder {
        color: white;
        font-weight: 500;
-       background: #8AB6FF;
    }
 
 
@@ -1204,7 +1204,7 @@ body.sidebar-opened {
         display: none;
     }
 
-    .search-panel {
+    .search-panel-desktop {
         display: none;
     }
 
@@ -1212,6 +1212,7 @@ body.sidebar-opened {
         display: flex;
         flex-grow: 10;
         margin-top: 10px;
+        margin-left: 10px;
     }
 
     .phone-tablet {
@@ -1258,7 +1259,7 @@ body.sidebar-opened {
         height: 20px;
     }
 
-    .search-panel {
+    .search-panel-mobile {
         margin-left: 5px;
     }
 
@@ -1317,9 +1318,9 @@ body.sidebar-opened {
         max-width: 600px;
     }
 
-    .search-panel:hover .search-input,
-    .search-panel:hover .search-button,
-    .search-panel:hover {
+    .search-panel-mobile:hover .search-input,
+    .search-panel-mobile:hover .search-button,
+    .search-panel-mobile:hover {
         background: #8AB6FF;
     }
 
