@@ -162,6 +162,9 @@ body.sidebar-opened {
     background: #4d90fe;
     border-radius: 30px;
     color: white;
+    margin-left: 5px;
+    transition: 0.3s;
+    width: 180px;
 }
 
 
@@ -185,25 +188,6 @@ body.sidebar-opened {
     padding-left: 15px;
 }
 
-.sidebar ul ul li a:hover {
-    background: #4d90fe;
-    border-radius: 30px;
-    color: white;
-}
-
-.sidebar ul li:hover {
-    margin-left: 10px;
-    transition: 0.5s;
-    background: #db0303;
-    border-radius: 30px;
-}
-
-.sidebar ul ul li:hover {
-    margin-left: 10px;
-    transition: 0.5s;
-    background: #dfdede;
-    border-radius: 30px;
-}
 
 .sidebar ul li a i:before {
     display: none;
