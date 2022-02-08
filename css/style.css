@@ -167,6 +167,20 @@ body.sidebar-opened {
     width: 180px;
 }
 
+.sidebar ul li:hover {
+    margin-left: 10px;
+    transition: 0.5s;
+    background: #dfdede;
+    border-radius: 30px;
+}
+
+.sidebar ul ul li:hover {
+    margin-left: 10px;
+    transition: 0.5s;
+    background: #dfdede;
+    border-radius: 30px;
+}
+
 
 .sidebar ul .sub-menu.show {
     display: block;
