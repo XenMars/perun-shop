@@ -395,7 +395,7 @@ body.sidebar-opened {
 .search-panel:hover .search-input,
 .search-panel:hover .search-button,
 .search-panel:hover {
-    background: #5d8cd8;
+    background: black;
     transition: 0.3s;
 }
 
@@ -423,11 +423,13 @@ body.sidebar-opened {
 
 .search-input[type="search"]::-webkit-input-placeholder {
     color: white;
+    background: #8AB6FF;
 }
 
 .search-input[type="search"]::-moz-placeholder {
        color: white;
        font-weight: 500;
+       background: #8AB6FF;
    }
 
 
