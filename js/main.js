@@ -357,7 +357,7 @@ $('.nav-icon3').click(function() {
 
 
 $(".back-mobile-button-001").click(function() {
-    $(".lvl-2-content-001").toggle();
+    $(".lvl-2-content-001").hide();
 	return false;
 });
 
