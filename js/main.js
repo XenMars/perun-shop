@@ -335,7 +335,18 @@ $(document).mouseover(function() {
     }
 });
 
+$('.menu-button').click(function() {
+	if ($(window).width() < 770 || $('.sidebar').hasClass('show'))
+	{
+	$('.nav-icon3').addClass('close-button-mobile-fixed');
+	}
+});
 
+$('.hidden-overley').click(function() {
+
+	$('.nav-icon3').removeClass('close-button-mobile-fixed');
+
+});
 
 $('.nav-icon3').click(function() {
 
