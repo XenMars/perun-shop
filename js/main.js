@@ -150,7 +150,7 @@ $(document).ready(function() {
 
 
 		$(".item-001").click(function() {
-        $(".lvl-2-content-001").show();
+        $(".lvl-2-content-001").toggle();
         $(".lvl-2-content-002").hide();
 		$(".lvl-2-content-003").hide();
 		$(".lvl-2-content-004").hide();
@@ -357,7 +357,7 @@ $('.nav-icon3').click(function() {
 
 
 $(".back-mobile-button-001").click(function() {
-    $(".lvl-2-content-001").hide();
+    $(".lvl-2-content-001").toggle();
 	return false;
 });
 
