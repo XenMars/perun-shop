@@ -351,82 +351,82 @@ $('.nav-icon3').click(function() {
 
 
 $(".back-mobile-button-001").click(function() {
-    $(".lvl-2-content-001").toggle('fast');
+    $(".lvl-2-content-001").fadeToggle('solow');
 	return false;
 });
 
 $(".back-mobile-button-002").click(function() {
-    $(".lvl-2-content-002").toggle('fast');
+    $(".lvl-2-content-002").fadeToggle('solow');
 	return false;
 });
 
 $(".back-mobile-button-003").click(function() {
-    $(".lvl-2-content-003").toggle('fast');
+    $(".lvl-2-content-003").fadeToggle('solow');
 	return false;
 });
 
 $(".back-mobile-button-004").click(function() {
-    $(".lvl-2-content-004").toggle('fast');
+    $(".lvl-2-content-004").fadeToggle('solow');
 	return false;
 });
 
 $(".back-mobile-button-005").click(function() {
-    $(".lvl-2-content-005").toggle('fast');
+    $(".lvl-2-content-005").fadeToggle('solow');
 	return false;
 });
 
 $(".back-mobile-button-006").click(function() {
-    $(".lvl-2-content-006").toggle('fast');
+    $(".lvl-2-content-006").fadeToggle('solow');
 	return false;
 });
 
 $(".back-mobile-button-007").click(function() {
-    $(".lvl-2-content-007").toggle('fast');
+    $(".lvl-2-content-007").fadeToggle('solow');
 	return false;
 });
 
 $(".back-mobile-button-008").click(function() {
-    $(".lvl-2-content-008").toggle('fast');
+    $(".lvl-2-content-008").fadeToggle('solow');
 	return false;
 });
 
 $(".back-mobile-button-02-001").click(function() {
-    $(".lvl-3-content-001").toggle('fast');
+    $(".lvl-3-content-001").fadeToggle('solow');
 	return false;
 });
 
 $(".back-mobile-button-02-002").click(function() {
-    $(".lvl-3-content-002").toggle('fast');
+    $(".lvl-3-content-002").fadeToggle('solow');
 	return false;
 });
 
 $(".back-mobile-button-02-003").click(function() {
-    $(".lvl-3-content-003").toggle('fast');
+    $(".lvl-3-content-003").fadeToggle('solow');
 	return false;
 });
 
 $(".back-mobile-button-02-004").click(function() {
-    $(".lvl-3-content-004").toggle('fast');
+    $(".lvl-3-content-004").fadeToggle('solow');
 	return false;
 });
 
 $(".back-mobile-button-02-005").click(function() {
-    $(".lvl-3-content-005").toggle('fast');
+    $(".lvl-3-content-005").fadeToggle('solow');
 	return false;
 });
 
 $(".back-mobile-button-02-006").click(function() {
-    $(".lvl-3-content-006").toggle('fast');
+    $(".lvl-3-content-006").fadeToggle('solow');
 	return false;
 });
 
 $(".back-mobile-button-02-007").click(function() {
-    $(".lvl-3-content-007").toggle('fast');
+    $(".lvl-3-content-007").fadeToggle('solow');
 	return false;
 });
 
 $(".back-mobile-button-02-008").click(function() {
-    $(".lvl-3-content-008").toggle('fast');
+    $(".lvl-3-content-008").fadeToggle('solow');
 	return false;
 });
 
