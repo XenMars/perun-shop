@@ -1,6 +1,7 @@
 $(document).ready(function() {
+
 		$(".item-001").mouseover(function() {
-        $(".lvl-2-content-001").show();
+        $(".lvl-2-content-001").show('slow');
         $(".lvl-2-content-002").hide();
 		$(".lvl-2-content-003").hide();
 		$(".lvl-2-content-004").hide();
@@ -12,7 +13,7 @@ $(document).ready(function() {
     
         $(".item-002").mouseover(function() {
         $(".lvl-2-content-001").hide();
-        $(".lvl-2-content-002").show();
+        $(".lvl-2-content-002").show('slow');
 		$(".lvl-2-content-003").hide();
 		$(".lvl-2-content-004").hide();
 		$(".lvl-2-content-005").hide();
@@ -24,7 +25,7 @@ $(document).ready(function() {
         $(".item-003").mouseover(function() {
         $(".lvl-2-content-001").hide();
         $(".lvl-2-content-002").hide();
-		$(".lvl-2-content-003").show();
+		$(".lvl-2-content-003").show('slow');
 		$(".lvl-2-content-004").hide();
 		$(".lvl-2-content-005").hide();
 		$(".lvl-2-content-006").hide();
@@ -36,7 +37,7 @@ $(document).ready(function() {
         $(".lvl-2-content-001").hide();
         $(".lvl-2-content-002").hide();
 		$(".lvl-2-content-003").hide();
-		$(".lvl-2-content-004").show();
+		$(".lvl-2-content-004").show('slow');
 		$(".lvl-2-content-005").hide();
 		$(".lvl-2-content-006").hide();
 		$(".lvl-2-content-007").hide();
@@ -48,7 +49,7 @@ $(document).ready(function() {
         $(".lvl-2-content-002").hide();
 		$(".lvl-2-content-003").hide();
 		$(".lvl-2-content-004").hide();
-		$(".lvl-2-content-005").show();
+		$(".lvl-2-content-005").show('slow');
 		$(".lvl-2-content-006").hide();
 		$(".lvl-2-content-007").hide();
 		$(".lvl-2-content-008").hide();
@@ -60,7 +61,7 @@ $(document).ready(function() {
 		$(".lvl-2-content-003").hide();
 		$(".lvl-2-content-004").hide();
 		$(".lvl-2-content-005").hide();
-		$(".lvl-2-content-006").show();
+		$(".lvl-2-content-006").show('slow');
 		$(".lvl-2-content-007").hide();
 		$(".lvl-2-content-008").hide();
     });
@@ -72,7 +73,7 @@ $(document).ready(function() {
 		$(".lvl-2-content-004").hide();
 		$(".lvl-2-content-005").hide();
 		$(".lvl-2-content-006").hide();
-		$(".lvl-2-content-007").show();
+		$(".lvl-2-content-007").show('slow');
 		$(".lvl-2-content-008").hide();
     });
 
@@ -84,7 +85,7 @@ $(document).ready(function() {
 		$(".lvl-2-content-005").hide();
 		$(".lvl-2-content-006").hide();
 		$(".lvl-2-content-007").hide();
-		$(".lvl-2-content-008").show();
+		$(".lvl-2-content-008").show('slow');
     });
 
         $(".item-single").mouseover(function() {
@@ -108,74 +109,72 @@ $(document).ready(function() {
     });
 
         $(".item-lvl2-001").mouseover(function() {
-        $(".lvl-3-content-001").show();
+        $(".lvl-3-content-001").show('slow');
     });
 
         $(".item-lvl2-002").mouseover(function() {
-        $(".lvl-3-content-002").show();
+        $(".lvl-3-content-002").show('slow');
 		$(".lvl-3-content-003").hide();
 		$(".lvl-3-content-004").hide();
     });
 
         $(".item-lvl2-003").mouseover(function() {
         $(".lvl-3-content-002").hide();
-		$(".lvl-3-content-003").show();
+		$(".lvl-3-content-003").show('slow');
 		$(".lvl-3-content-004").hide();
     });
 
         $(".item-lvl2-004").mouseover(function() {
         $(".lvl-3-content-002").hide();
 		$(".lvl-3-content-003").hide();
-		$(".lvl-3-content-004").show();
+		$(".lvl-3-content-004").show('slow');
     });
 
         $(".item-lvl2-005").mouseover(function() {
-		$(".lvl-3-content-005").show();
+		$(".lvl-3-content-005").show('slow');
     });
 
         $(".item-lvl2-006").mouseover(function() {
-		$(".lvl-3-content-006").show();
+		$(".lvl-3-content-006").show('slow');
     });
 
         $(".item-lvl2-007").mouseover(function() {
-		$(".lvl-3-content-007").show();
+		$(".lvl-3-content-007").show('slow');
 		$(".lvl-3-content-008").hide();
     });
 
         $(".item-lvl2-008").mouseover(function() {
 		$(".lvl-3-content-007").hide();
-		$(".lvl-3-content-008").show();
+		$(".lvl-3-content-008").show('slow');
     });
 
-
-
 		$(".item-001").click(function() {
-        $(".lvl-2-content-001").show();
+        $(".lvl-2-content-001").show('slow');
     });
     
         $(".item-002").click(function() {
-        $(".lvl-2-content-002").show();
+        $(".lvl-2-content-002").show('slow');
 
     });
 
         $(".item-003").click(function() {
-		$(".lvl-2-content-003").show();
+		$(".lvl-2-content-003").show('slow');
     });
 
         $(".item-004").click(function() {
-		$(".lvl-2-content-004").show();
+		$(".lvl-2-content-004").show('slow');
     });
 
         $(".item-005").click(function() {
-		$(".lvl-2-content-005").show();
+		$(".lvl-2-content-005").show('slow');
     });
 
         $(".item-006").click(function() {
-		$(".lvl-2-content-006").show();
+		$(".lvl-2-content-006").show('slow');
     });
 
         $(".item-007").click(function() {
-		$(".lvl-2-content-007").show();
+		$(".lvl-2-content-007").show('slow');
     });
 
         $(".item-008").click(function() {
@@ -183,35 +182,35 @@ $(document).ready(function() {
     });
 
         $(".item-lvl2-001").click(function() {
-        $(".lvl-3-content-001").show();
+        $(".lvl-3-content-001").show('slow');
     });
 
         $(".item-lvl2-002").click(function() {
-        $(".lvl-3-content-002").show();
+        $(".lvl-3-content-002").show('slow');
     });
 
         $(".item-lvl2-003").click(function() {
-		$(".lvl-3-content-003").show();
+		$(".lvl-3-content-003").show('slow');
     });
 
         $(".item-lvl2-004").click(function() {
-		$(".lvl-3-content-004").show();
+		$(".lvl-3-content-004").show('slow');
     });
 
         $(".item-lvl2-005").click(function() {
-		$(".lvl-3-content-005").show();
+		$(".lvl-3-content-005").show('slow');
     });
 
         $(".item-lvl2-006").click(function() {
-		$(".lvl-3-content-006").show();
+		$(".lvl-3-content-006").show('slow');
     });
 
         $(".item-lvl2-007").click(function() {
-		$(".lvl-3-content-007").show();
+		$(".lvl-3-content-007").show('slow');
     });
 
         $(".item-lvl2-008").click(function() {
-		$(".lvl-3-content-008").show();
+		$(".lvl-3-content-008").show('slow');
     });
 
 });
@@ -274,82 +273,82 @@ $('.nav-icon3').click(function() {
 
 
 $(".back-mobile-button-001").click(function() {
-    $(".lvl-2-content-001").toggle();
+    $(".lvl-2-content-001").toggle('slow');
 	return false;
 });
 
 $(".back-mobile-button-002").click(function() {
-    $(".lvl-2-content-002").toggle();
+    $(".lvl-2-content-002").toggle('slow');
 	return false;
 });
 
 $(".back-mobile-button-003").click(function() {
-    $(".lvl-2-content-003").toggle();
+    $(".lvl-2-content-003").toggle('slow');
 	return false;
 });
 
 $(".back-mobile-button-004").click(function() {
-    $(".lvl-2-content-004").toggle();
+    $(".lvl-2-content-004").toggle('slow');
 	return false;
 });
 
 $(".back-mobile-button-005").click(function() {
-    $(".lvl-2-content-005").toggle();
+    $(".lvl-2-content-005").toggle('slow');
 	return false;
 });
 
 $(".back-mobile-button-006").click(function() {
-    $(".lvl-2-content-006").toggle();
+    $(".lvl-2-content-006").toggle('slow');
 	return false;
 });
 
 $(".back-mobile-button-007").click(function() {
-    $(".lvl-2-content-007").toggle();
+    $(".lvl-2-content-007").toggle('slow');
 	return false;
 });
 
 $(".back-mobile-button-008").click(function() {
-    $(".lvl-2-content-008").toggle();
+    $(".lvl-2-content-008").toggle('slow');
 	return false;
 });
 
 $(".back-mobile-button-02-001").click(function() {
-    $(".lvl-3-content-001").toggle();
+    $(".lvl-3-content-001").toggle('slow');
 	return false;
 });
 
 $(".back-mobile-button-02-002").click(function() {
-    $(".lvl-3-content-002").toggle();
+    $(".lvl-3-content-002").toggle('slow');
 	return false;
 });
 
 $(".back-mobile-button-02-003").click(function() {
-    $(".lvl-3-content-003").toggle();
+    $(".lvl-3-content-003").toggle('slow');
 	return false;
 });
 
 $(".back-mobile-button-02-004").click(function() {
-    $(".lvl-3-content-004").toggle();
+    $(".lvl-3-content-004").toggle('slow');
 	return false;
 });
 
 $(".back-mobile-button-02-005").click(function() {
-    $(".lvl-3-content-005").toggle();
+    $(".lvl-3-content-005").toggle('slow');
 	return false;
 });
 
 $(".back-mobile-button-02-006").click(function() {
-    $(".lvl-3-content-006").toggle();
+    $(".lvl-3-content-006").toggle('slow');
 	return false;
 });
 
 $(".back-mobile-button-02-007").click(function() {
-    $(".lvl-3-content-007").toggle();
+    $(".lvl-3-content-007").toggle('slow');
 	return false;
 });
 
 $(".back-mobile-button-02-008").click(function() {
-    $(".lvl-3-content-008").toggle();
+    $(".lvl-3-content-008").toggle('slow');
 	return false;
 });
 
