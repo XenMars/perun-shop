@@ -1067,6 +1067,10 @@ body.sidebar-opened {
     display: none;
 }
 
+.close-button-mobile-fixed {
+    left: 210px !important;
+}
+
 @media (max-width: 1440px) {
 
     .desktop-slider {

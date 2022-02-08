@@ -313,26 +313,48 @@ $(document).ready(function() {
 
 
 $(document).mouseover(function() {
-    if($('.level2:visible').length == 0 && ($(window).width() >= '770'))
+    if($('.level2:visible').length == 0)
     {
 		$('.nav-icon3').removeClass('open2lvl');
     }
-    else
-    {
-        $('.nav-icon3').addClass('open2lvl'); 
-    }
+	else 
+	{
+		$('.nav-icon3').addClass('open2lvl'); 
+	}
+
 });
 
 $(document).mouseover(function() {
-    if($('.level3:visible').length == 0 && ($(window).width() >= '770'))
+    if($('.level3:visible').length == 0)
     {
 		$('.nav-icon3').removeClass('open3lvl');
     }
-    else
+    else 
     {
         $('.nav-icon3').addClass('open3lvl'); 
     }
 });
+
+$('.menu-button').click(function() {
+	if ($(window).width() < 770 || $('.sidebar').hasClass('show'))
+	{
+	$('.nav-icon3').addClass('close-button-mobile-fixed');
+	}
+});
+
+$('.hidden-overley').click(function() {
+
+	$('.nav-icon3').removeClass('close-button-mobile-fixed');
+
+});
+
+$('.nav-icon3').click(function() {
+
+	$('.nav-icon3').removeClass('close-button-mobile-fixed');
+
+});
+
+
 
 $(".back-mobile-button-001").click(function() {
     $(".lvl-2-content-001").toggle();
