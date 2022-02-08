@@ -150,111 +150,36 @@ $(document).ready(function() {
 
 
 		$(".item-001").click(function() {
-        $(".lvl-2-content-001").toggle();
-        $(".lvl-2-content-002").hide();
-		$(".lvl-2-content-003").hide();
-		$(".lvl-2-content-004").hide();
-		$(".lvl-2-content-005").hide();
-		$(".lvl-2-content-006").hide();
-		$(".lvl-2-content-007").hide();
-		$(".lvl-2-content-008").hide();
+        $(".lvl-2-content-001").show();
     });
     
         $(".item-002").click(function() {
-        $(".lvl-2-content-001").hide();
         $(".lvl-2-content-002").show();
-		$(".lvl-2-content-003").hide();
-		$(".lvl-2-content-004").hide();
-		$(".lvl-2-content-005").hide();
-		$(".lvl-2-content-006").hide();
-		$(".lvl-2-content-007").hide();
-		$(".lvl-2-content-008").hide();
+
     });
 
         $(".item-003").click(function() {
-        $(".lvl-2-content-001").hide();
-        $(".lvl-2-content-002").hide();
 		$(".lvl-2-content-003").show();
-		$(".lvl-2-content-004").hide();
-		$(".lvl-2-content-005").hide();
-		$(".lvl-2-content-006").hide();
-		$(".lvl-2-content-007").hide();
-		$(".lvl-2-content-008").hide();
     });
 
         $(".item-004").click(function() {
-        $(".lvl-2-content-001").hide();
-        $(".lvl-2-content-002").hide();
-		$(".lvl-2-content-003").hide();
 		$(".lvl-2-content-004").show();
-		$(".lvl-2-content-005").hide();
-		$(".lvl-2-content-006").hide();
-		$(".lvl-2-content-007").hide();
-		$(".lvl-2-content-008").hide();
     });
 
         $(".item-005").click(function() {
-        $(".lvl-2-content-001").hide();
-        $(".lvl-2-content-002").hide();
-		$(".lvl-2-content-003").hide();
-		$(".lvl-2-content-004").hide();
 		$(".lvl-2-content-005").show();
-		$(".lvl-2-content-006").hide();
-		$(".lvl-2-content-007").hide();
-		$(".lvl-2-content-008").hide();
     });
 
         $(".item-006").click(function() {
-        $(".lvl-2-content-001").hide();
-        $(".lvl-2-content-002").hide();
-		$(".lvl-2-content-003").hide();
-		$(".lvl-2-content-004").hide();
-		$(".lvl-2-content-005").hide();
 		$(".lvl-2-content-006").show();
-		$(".lvl-2-content-007").hide();
-		$(".lvl-2-content-008").hide();
     });
 
         $(".item-007").click(function() {
-        $(".lvl-2-content-001").hide();
-        $(".lvl-2-content-002").hide();
-		$(".lvl-2-content-003").hide();
-		$(".lvl-2-content-004").hide();
-		$(".lvl-2-content-005").hide();
-		$(".lvl-2-content-006").hide();
 		$(".lvl-2-content-007").show();
-		$(".lvl-2-content-008").hide();
     });
 
         $(".item-008").click(function() {
-        $(".lvl-2-content-001").hide();
-        $(".lvl-2-content-002").hide();
-		$(".lvl-2-content-003").hide();
-		$(".lvl-2-content-004").hide();
-		$(".lvl-2-content-005").hide();
-		$(".lvl-2-content-006").hide();
-		$(".lvl-2-content-007").hide();
 		$(".lvl-2-content-008").show();
-    });
-
-        $(".item-single").click(function() {
-        $(".lvl-2-content-001").hide();
-        $(".lvl-2-content-002").hide();
-		$(".lvl-2-content-003").hide();
-		$(".lvl-2-content-004").hide();
-		$(".lvl-2-content-005").hide();
-		$(".lvl-2-content-006").hide();
-		$(".lvl-2-content-007").hide();
-		$(".lvl-2-content-008").hide();
-    });
-
-        $(".lvl2-item-single").click(function() {
-        $(".lvl-3-content-001").hide();
-		$(".lvl-3-content-002").hide();
-		$(".lvl-3-content-003").hide();
-		$(".lvl-3-content-004").hide();
-		$(".lvl-3-content-005").hide();
-		$(".lvl-3-content-006").hide();
     });
 
         $(".item-lvl2-001").click(function() {
@@ -263,19 +188,13 @@ $(document).ready(function() {
 
         $(".item-lvl2-002").click(function() {
         $(".lvl-3-content-002").show();
-		$(".lvl-3-content-003").hide();
-		$(".lvl-3-content-004").hide();
     });
 
         $(".item-lvl2-003").click(function() {
-        $(".lvl-3-content-002").hide();
 		$(".lvl-3-content-003").show();
-		$(".lvl-3-content-004").hide();
     });
 
         $(".item-lvl2-004").click(function() {
-        $(".lvl-3-content-002").hide();
-		$(".lvl-3-content-003").hide();
 		$(".lvl-3-content-004").show();
     });
 
@@ -289,11 +208,9 @@ $(document).ready(function() {
 
         $(".item-lvl2-007").click(function() {
 		$(".lvl-3-content-007").show();
-		$(".lvl-3-content-008").hide();
     });
 
         $(".item-lvl2-008").click(function() {
-		$(".lvl-3-content-007").hide();
 		$(".lvl-3-content-008").show();
     });
 
@@ -503,12 +420,6 @@ document.addEventListener('DOMContentLoaded', () => {
 		pushmenu[i].addEventListener('click', pushmenuFunction, false);
 	}
 
-	// Получим все родительские элементы в меню
-	const sidebarAccordeon = document.querySelectorAll('.sidebar .menu-parent-item a:first-child');
-	const accordeonFunction =  function() { 
-		this.parentNode.querySelector('ul').classList.toggle('show');
-		this.querySelector('i').classList.toggle('rotate');
-	}
 	// Отслеживаем клики родительских пунктов меню 
 	for( i=0; i < sidebarAccordeon.length; i++ ){
 		sidebarAccordeon[i].addEventListener('click', accordeonFunction, false);
