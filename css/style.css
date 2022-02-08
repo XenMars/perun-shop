@@ -194,7 +194,7 @@ body.sidebar-opened {
 .sidebar ul li:hover {
     margin-left: 10px;
     transition: 0.5s;
-    background: #dfdede;
+    background: #db0303;
     border-radius: 30px;
 }
 
