@@ -997,8 +997,6 @@ body.sidebar-opened {
 }
 
 .nav-mobile-fixed {
-    display: -webkit-box;
-    display: -ms-flexbox;
     position: fixed;
     background-color: white;
     bottom: 0;
