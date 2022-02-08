@@ -417,6 +417,10 @@ body.sidebar-opened {
     outline:none;
 }
 
+.search-input:focus {
+   background: #8AB6FF !important;
+}
+
 .search-input[type="search"]::-webkit-input-placeholder {
     color: white;
 }
