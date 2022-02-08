@@ -1069,6 +1069,10 @@ body.sidebar-opened {
     display: none;
 }
 
+.button-group-menu img {
+    display: none;
+}
+
 @media (max-width: 1440px) {
 
     .desktop-slider {
@@ -1309,7 +1313,19 @@ body.sidebar-opened {
     }
     .back-mobile-button {
         display: block;
-        background: #dbdbdb;
+    }
+
+    .button-group-menu {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .button-group-menu img {
+        margin-top: 10px;
+        margin-right: 20px;
+        width: 15px;
+        height: 15px;
+        display: flex;
     }
 
     .sidebar {
@@ -1357,20 +1373,13 @@ body.sidebar-opened {
         margin: 0;
     }
 
-    .back-mobile-button a:focus,
-    .back-mobile-button a:hover {
-        background: #bebebe !important;
-        border-radius: 0px !important;
-        color: #757575 !important;
-    }
-
     .back-mobile-button span {
         padding: 10px;
     }
 
     .back-mobile-button img {
         vertical-align: middle;
-        height: 20px;
+        height: 15px;
     }
 
     .close-menu-lvl-2 {
