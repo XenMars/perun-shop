@@ -1151,6 +1151,114 @@ body.sidebar-opened {
         max-width: 900px;
     } 
 
+    .search-panel-mobile:hover .search-input,
+    .search-panel-mobile:hover .search-button,
+    .search-panel-mobile:hover {
+        background: #8AB6FF;
+    }
+
+    .search-input:focus {
+        background: #8AB6FF !important;
+    }
+
+    .back-mobile-button {
+        display: block;
+    }
+
+    .button-group-menu {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .button-group-menu img {
+        margin-top: 20px;
+        margin-right: 20px;
+        width: 15px;
+        height: 15px;
+        display: flex;
+    }
+
+    .sidebar {
+        width: 100%;
+        left: -1200px;
+    }
+
+    .nav-icon-mobile {
+        margin-left: 15px;
+    } 
+
+    .search-mobile {
+        margin-right: 15px;
+    }
+
+    .menu-mobile-heder {
+        background: linear-gradient(88.5deg, #4D90FE 5.88%, #0B2E67 171.41%);
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+        padding-top: 10px;
+        margin: 0;
+        height: 50px;
+    }
+
+    .menuChildItemLvl2 .level2 {
+        margin-top: 60px;
+        width: 100%;
+    }
+
+    .menuChildItemLvl3 .level3 {
+        margin-top: 60px;
+        width: 100%;
+    }
+
+    .logo-navbar-mobile {
+        width: 155px;
+    }
+
+    .nav-icon-mobile img {
+        width: 20px;
+        height: 20px;
+        margin-top: 7px;
+    }
+
+
+    .sidebar ul li a:hover {
+        cursor: pointer;
+        background: transparent;
+        border-radius: 0px;
+        color: #757575;
+        transition: 0s;
+        margin: 0;
+    }
+
+    .back-mobile-button span {
+        padding: 10px;
+    }
+
+    .back-mobile-button img {
+        vertical-align: middle;
+        height: 15px;
+    }
+
+    .close-menu-lvl-2 {
+        display: none !important;
+    }
+
+    .menuChildItemLvl2 .level2 {
+        left: 0;
+        z-index: 1000;
+    }
+
+    .menuChildItemLvl3 .level3 {
+        left: 0;
+        z-index: 1001;
+    }
+
+    .sidebar ul li a {
+        font-size: 14px;
+        padding: 7px;
+    }
+
     .slider-item img {
         width: 850px;
         border-radius: 30px;
@@ -1318,104 +1426,7 @@ body.sidebar-opened {
         max-width: 600px;
     }
 
-    .search-panel-mobile:hover .search-input,
-    .search-panel-mobile:hover .search-button,
-    .search-panel-mobile:hover {
-        background: #8AB6FF;
-    }
 
-    .search-input:focus {
-        background: #8AB6FF !important;
-    }
-    .back-mobile-button {
-        display: block;
-    }
-
-    .button-group-menu {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .button-group-menu img {
-        margin-top: 20px;
-        margin-right: 20px;
-        width: 15px;
-        height: 15px;
-        display: flex;
-    }
-
-    .sidebar {
-        width: 100%;
-        left: -1000px;
-    }
-
-    .menu-mobile-heder {
-        background: linear-gradient(88.5deg, #4D90FE 5.88%, #0B2E67 171.41%);
-        display: flex;
-        justify-content: space-around;
-        padding: 0;
-        padding-top: 10px;
-        margin: 0;
-        height: 50px;
-    }
-
-    .menuChildItemLvl2 .level2 {
-        margin-top: 60px;
-        width: 100%;
-    }
-
-    .menuChildItemLvl3 .level3 {
-        margin-top: 60px;
-        width: 100%;
-    }
-
-    .logo-navbar-mobile {
-        width: 155px;
-    }
-
-    .nav-icon-mobile img {
-        width: 20px;
-        height: 20px;
-        margin-top: 7px;
-    }
-    
-
-    .sidebar ul li a:hover {
-        cursor: pointer;
-        background: transparent;
-        border-radius: 0px;
-        color: #757575;
-        transition: 0s;
-        margin: 0;
-    }
-
-    .back-mobile-button span {
-        padding: 10px;
-    }
-
-    .back-mobile-button img {
-        vertical-align: middle;
-        height: 15px;
-    }
-
-    .close-menu-lvl-2 {
-        display: none !important;
-    }
-
-    .menuChildItemLvl2 .level2 {
-        left: 0;
-        z-index: 1000;
-    }
-
-    .menuChildItemLvl3 .level3 {
-        left: 0;
-        z-index: 1001;
-    }
-
-    .sidebar ul li a {
-        font-size: 14px;
-        padding: 7px;
-    }
 
     .menu-button {
         margin-bottom: 53px;
