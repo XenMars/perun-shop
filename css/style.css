@@ -1065,6 +1065,10 @@ body.sidebar-opened {
     display: none;
 }
 
+.menu-mobile-heder {
+    display: none;
+}
+
 @media (max-width: 1440px) {
 
     .desktop-slider {
