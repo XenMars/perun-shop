@@ -1,6 +1,6 @@
 $(document).ready(function() {
-		$(".item-001").mouseover(function() {
-        $(".lvl-2-content-001").fadeIn("slow");
+		$(".item-001-desktop").mouseover(function() {
+        $(".lvl-2-content-001").fadeIn("fast");
         $(".lvl-2-content-002").hide();
 		$(".lvl-2-content-003").hide();
 		$(".lvl-2-content-004").hide();
@@ -10,7 +10,7 @@ $(document).ready(function() {
 		$(".lvl-2-content-008").hide();
     });
     
-        $(".item-002").mouseover(function() {
+        $(".item-002-desktop").mouseover(function() {
         $(".lvl-2-content-001").hide();
         $(".lvl-2-content-002").fadeIn("fast");
 		$(".lvl-2-content-003").hide();
@@ -21,7 +21,7 @@ $(document).ready(function() {
 		$(".lvl-2-content-008").hide();
     });
 
-        $(".item-003").mouseover(function() {
+        $(".item-003-desktop").mouseover(function() {
         $(".lvl-2-content-001").hide();
         $(".lvl-2-content-002").hide();
 		$(".lvl-2-content-003").fadeIn("fast");
@@ -32,7 +32,7 @@ $(document).ready(function() {
 		$(".lvl-2-content-008").hide();
     });
 
-        $(".item-004").mouseover(function() {
+        $(".item-004-desktop").mouseover(function() {
         $(".lvl-2-content-001").hide();
         $(".lvl-2-content-002").hide();
 		$(".lvl-2-content-003").hide();
@@ -43,7 +43,7 @@ $(document).ready(function() {
 		$(".lvl-2-content-008").hide();
     });
 
-        $(".item-005").mouseover(function() {
+        $(".item-005-desktop").mouseover(function() {
         $(".lvl-2-content-001").hide();
         $(".lvl-2-content-002").hide();
 		$(".lvl-2-content-003").hide();
@@ -54,7 +54,7 @@ $(document).ready(function() {
 		$(".lvl-2-content-008").hide();
     });
 
-        $(".item-006").mouseover(function() {
+        $(".item-006-desktop").mouseover(function() {
         $(".lvl-2-content-001").hide();
         $(".lvl-2-content-002").hide();
 		$(".lvl-2-content-003").hide();
@@ -65,7 +65,7 @@ $(document).ready(function() {
 		$(".lvl-2-content-008").hide();
     });
 
-        $(".item-007").mouseover(function() {
+        $(".item-007-desktop").mouseover(function() {
         $(".lvl-2-content-001").hide();
         $(".lvl-2-content-002").hide();
 		$(".lvl-2-content-003").hide();
@@ -76,7 +76,7 @@ $(document).ready(function() {
 		$(".lvl-2-content-008").hide();
     });
 
-        $(".item-008").mouseover(function() {
+        $(".item-008-desktop").mouseover(function() {
         $(".lvl-2-content-001").hide();
         $(".lvl-2-content-002").hide();
 		$(".lvl-2-content-003").hide();
@@ -107,42 +107,42 @@ $(document).ready(function() {
 		$(".lvl-3-content-006").hide();
     });
 
-        $(".item-lvl2-001").mouseover(function() {
+        $(".item-lvl2-001-desktop").mouseover(function() {
         $(".lvl-3-content-001").fadeIn("fast");
     });
 
-        $(".item-lvl2-002").mouseover(function() {
+        $(".item-lvl2-002-desktop").mouseover(function() {
         $(".lvl-3-content-002").fadeIn("fast");
 		$(".lvl-3-content-003").hide();
 		$(".lvl-3-content-004").hide();
     });
 
-        $(".item-lvl2-003").mouseover(function() {
+        $(".item-lvl2-003-desktop").mouseover(function() {
         $(".lvl-3-content-002").hide();
 		$(".lvl-3-content-003").fadeIn("fast");
 		$(".lvl-3-content-004").hide();
     });
 
-        $(".item-lvl2-004").mouseover(function() {
+        $(".item-lvl2-004-desktop").mouseover(function() {
         $(".lvl-3-content-002").hide();
 		$(".lvl-3-content-003").hide();
 		$(".lvl-3-content-004").fadeIn("fast");
     });
 
-        $(".item-lvl2-005").mouseover(function() {
+        $(".item-lvl2-005-desktop").mouseover(function() {
 		$(".lvl-3-content-005").fadeIn("fast");
     });
 
-        $(".item-lvl2-006").mouseover(function() {
+        $(".item-lvl2-006-desktop").mouseover(function() {
 		$(".lvl-3-content-006").fadeIn("fast");
     });
 
-        $(".item-lvl2-007").mouseover(function() {
+        $(".item-lvl2-007-desktop").mouseover(function() {
 		$(".lvl-3-content-007").fadeIn("fast");
 		$(".lvl-3-content-008").hide();
     });
 
-        $(".item-lvl2-008").mouseover(function() {
+        $(".item-lvl2-008-desktop").mouseover(function() {
 		$(".lvl-3-content-007").hide();
 		$(".lvl-3-content-008").fadeIn("fast");
     });
@@ -167,8 +167,8 @@ $(document).ready(function() {
 		$(".lvl-3-content-006").hide();
     });
 
-		$(".item-001").click(function() {
-        $(".lvl-2-content-001").fadeIn("slow");
+		$(".item-001-mobile").click(function() {
+        $(".lvl-2-content-001").fadeIn("fast");
 		$(".lvl-2-content-002").hide();
 		$(".lvl-2-content-003").hide();
 		$(".lvl-2-content-004").hide();
@@ -178,7 +178,7 @@ $(document).ready(function() {
 		$(".lvl-2-content-008").hide();
     });
     
-        $(".item-002").click(function() {
+        $(".item-002-mobile").click(function() {
         $(".lvl-2-content-001").hide();
         $(".lvl-2-content-002").fadeIn("fast");
 		$(".lvl-2-content-003").hide();
@@ -190,7 +190,7 @@ $(document).ready(function() {
 
     });
 
-        $(".item-003").click(function() {
+        $(".item-003-mobile").click(function() {
 		$(".lvl-2-content-001").hide();
         $(".lvl-2-content-002").hide();
 		$(".lvl-2-content-003").fadeIn("fast");
@@ -201,7 +201,7 @@ $(document).ready(function() {
 		$(".lvl-2-content-008").hide();
     });
 
-        $(".item-004").click(function() {
+        $(".item-004-mobile").click(function() {
 		$(".lvl-2-content-001").hide();
         $(".lvl-2-content-002").hide();
 		$(".lvl-2-content-003").hide();
@@ -212,7 +212,7 @@ $(document).ready(function() {
 		$(".lvl-2-content-008").hide();
     });
 
-        $(".item-005").click(function() {
+        $(".item-005-mobile").click(function() {
 		$(".lvl-2-content-001").hide();
         $(".lvl-2-content-002").hide();
 		$(".lvl-2-content-003").hide();
@@ -223,7 +223,7 @@ $(document).ready(function() {
 		$(".lvl-2-content-008").hide();
     });
 
-        $(".item-006").click(function() {
+        $(".item-006-mobile").click(function() {
 		$(".lvl-2-content-001").hide();
         $(".lvl-2-content-002").hide();
 		$(".lvl-2-content-003").hide();
@@ -234,7 +234,7 @@ $(document).ready(function() {
 		$(".lvl-2-content-008").hide();
     });
 
-        $(".item-007").click(function() {
+        $(".item-007-mobile").click(function() {
 		$(".lvl-2-content-001").hide();
         $(".lvl-2-content-002").hide();
 		$(".lvl-2-content-003").hide();
@@ -245,7 +245,7 @@ $(document).ready(function() {
 		$(".lvl-2-content-008").hide();
     });
 
-        $(".item-008").click(function() {
+        $(".item-008-mobile").click(function() {
 		$(".lvl-2-content-001").hide();
         $(".lvl-2-content-002").hide();
 		$(".lvl-2-content-003").hide();
@@ -256,42 +256,42 @@ $(document).ready(function() {
 		$(".lvl-2-content-008").fadeIn("fast");
     });
 
-        $(".item-lvl2-001").click(function() {
+        $(".item-lvl2-001-mobile").click(function() {
         $(".lvl-3-content-001").fadeIn("fast");
     });
 
-        $(".item-lvl2-002").click(function() {
+        $(".item-lvl2-002-mobile").click(function() {
         $(".lvl-3-content-002").fadeIn("fast");
 		$(".lvl-3-content-003").hide();
 		$(".lvl-3-content-004").hide();
     });
 
-        $(".item-lvl2-003").click(function() {
+        $(".item-lvl2-003-mobile").click(function() {
 		$(".lvl-3-content-002").hide();
 		$(".lvl-3-content-003").fadeIn("fast");
 		$(".lvl-3-content-004").hide();
     });
 
-        $(".item-lvl2-004").click(function() {
+        $(".item-lvl2-004-mobile").click(function() {
 		$(".lvl-3-content-002").hide();
 		$(".lvl-3-content-003").hide();
 		$(".lvl-3-content-004").fadeIn("fast");
     });
 
-        $(".item-lvl2-005").click(function() {
+        $(".item-lvl2-005-mobile").click(function() {
 		$(".lvl-3-content-005").fadeIn("fast");
     });
 
-        $(".item-lvl2-006").click(function() {
+        $(".item-lvl2-006-mobile").click(function() {
 		$(".lvl-3-content-006").fadeIn("fast");
     });
 
-        $(".item-lvl2-007").click(function() {
+        $(".item-lvl2-007-mobile").click(function() {
 		$(".lvl-3-content-007").fadeIn("fast");
 		$(".lvl-3-content-008").hide();
     });
 
-        $(".item-lvl2-008").click(function() {
+        $(".item-lvl2-008-mobile").click(function() {
 		$(".lvl-3-content-007").hide();
 		$(".lvl-3-content-008").fadeIn("fast");
     });
