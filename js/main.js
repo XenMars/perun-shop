@@ -180,7 +180,7 @@ $(document).ready(function() {
     
         $(".item-002-mobile").click(function() {
         $(".lvl-2-content-001").hide();
-        $(".lvl-2-content-002").fadeIn("fast");
+        $(".lvl-2-content-002").fadeIn("slow");
 		$(".lvl-2-content-003").hide();
 		$(".lvl-2-content-004").hide();
 		$(".lvl-2-content-005").hide();
@@ -257,7 +257,7 @@ $(document).ready(function() {
     });
 
         $(".item-lvl2-001-mobile").click(function() {
-        $(".lvl-3-content-001").fadeIn("fast");
+        $(".lvl-3-content-001").fadeIn("slow");
     });
 
         $(".item-lvl2-002-mobile").click(function() {
