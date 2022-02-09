@@ -762,3 +762,14 @@ $(document).ready(function(){
   $(".search-mobile-fullscreen-container").css("display", "none");
 });
 });
+
+ $(document).ready(function() {
+     document.ontouchmove = function(e){
+          e.preventDefault();
+          };
+ });
+
+ $('.search-input').onfocus = function () {
+    window.scrollTo(0, 0);
+    document.body.scrollTop = 0;
+};
