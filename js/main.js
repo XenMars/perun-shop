@@ -146,6 +146,155 @@ $(document).ready(function() {
 		$(".lvl-3-content-007").hide();
 		$(".lvl-3-content-008").fadeIn("fast");
     });
+	//
+	$(".item-001-desktop").click(function() {
+        $(".lvl-2-content-001").fadeIn("fast");
+        $(".lvl-2-content-002").hide();
+		$(".lvl-2-content-003").hide();
+		$(".lvl-2-content-004").hide();
+		$(".lvl-2-content-005").hide();
+		$(".lvl-2-content-006").hide();
+		$(".lvl-2-content-007").hide();
+		$(".lvl-2-content-008").hide();
+    });
+    
+        $(".item-002-desktop").click(function() {
+        $(".lvl-2-content-001").hide();
+        $(".lvl-2-content-002").fadeIn("fast");
+		$(".lvl-2-content-003").hide();
+		$(".lvl-2-content-004").hide();
+		$(".lvl-2-content-005").hide();
+		$(".lvl-2-content-006").hide();
+		$(".lvl-2-content-007").hide();
+		$(".lvl-2-content-008").hide();
+    });
+
+        $(".item-003-desktop").click(function() {
+        $(".lvl-2-content-001").hide();
+        $(".lvl-2-content-002").hide();
+		$(".lvl-2-content-003").fadeIn("fast");
+		$(".lvl-2-content-004").hide();
+		$(".lvl-2-content-005").hide();
+		$(".lvl-2-content-006").hide();
+		$(".lvl-2-content-007").hide();
+		$(".lvl-2-content-008").hide();
+    });
+
+        $(".item-004-desktop").click(function() {
+        $(".lvl-2-content-001").hide();
+        $(".lvl-2-content-002").hide();
+		$(".lvl-2-content-003").hide();
+		$(".lvl-2-content-004").fadeIn("fast");
+		$(".lvl-2-content-005").hide();
+		$(".lvl-2-content-006").hide();
+		$(".lvl-2-content-007").hide();
+		$(".lvl-2-content-008").hide();
+    });
+
+        $(".item-005-desktop").click(function() {
+        $(".lvl-2-content-001").hide();
+        $(".lvl-2-content-002").hide();
+		$(".lvl-2-content-003").hide();
+		$(".lvl-2-content-004").hide();
+		$(".lvl-2-content-005").fadeIn("fast");
+		$(".lvl-2-content-006").hide();
+		$(".lvl-2-content-007").hide();
+		$(".lvl-2-content-008").hide();
+    });
+
+        $(".item-006-desktop").click(function() {
+        $(".lvl-2-content-001").hide();
+        $(".lvl-2-content-002").hide();
+		$(".lvl-2-content-003").hide();
+		$(".lvl-2-content-004").hide();
+		$(".lvl-2-content-005").hide();
+		$(".lvl-2-content-006").fadeIn("fast");
+		$(".lvl-2-content-007").hide();
+		$(".lvl-2-content-008").hide();
+    });
+
+        $(".item-007-desktop").click(function() {
+        $(".lvl-2-content-001").hide();
+        $(".lvl-2-content-002").hide();
+		$(".lvl-2-content-003").hide();
+		$(".lvl-2-content-004").hide();
+		$(".lvl-2-content-005").hide();
+		$(".lvl-2-content-006").hide();
+		$(".lvl-2-content-007").fadeIn("fast");
+		$(".lvl-2-content-008").hide();
+    });
+
+        $(".item-008-desktop").click(function() {
+        $(".lvl-2-content-001").hide();
+        $(".lvl-2-content-002").hide();
+		$(".lvl-2-content-003").hide();
+		$(".lvl-2-content-004").hide();
+		$(".lvl-2-content-005").hide();
+		$(".lvl-2-content-006").hide();
+		$(".lvl-2-content-007").hide();
+		$(".lvl-2-content-008").fadeIn("fast");
+    });
+
+        $(".item-single").click(function() {
+        $(".lvl-2-content-001").hide();
+        $(".lvl-2-content-002").hide();
+		$(".lvl-2-content-003").hide();
+		$(".lvl-2-content-004").hide();
+		$(".lvl-2-content-005").hide();
+		$(".lvl-2-content-006").hide();
+		$(".lvl-2-content-007").hide();
+		$(".lvl-2-content-008").hide();
+    });
+
+        $(".lvl2-item-single").click(function() {
+        $(".lvl-3-content-001").hide();
+		$(".lvl-3-content-002").hide();
+		$(".lvl-3-content-003").hide();
+		$(".lvl-3-content-004").hide();
+		$(".lvl-3-content-005").hide();
+		$(".lvl-3-content-006").hide();
+    });
+
+        $(".item-lvl2-001-desktop").click(function() {
+        $(".lvl-3-content-001").fadeIn("fast");
+    });
+
+        $(".item-lvl2-002-desktop").click(function() {
+        $(".lvl-3-content-002").fadeIn("fast");
+		$(".lvl-3-content-003").hide();
+		$(".lvl-3-content-004").hide();
+    });
+
+        $(".item-lvl2-003-desktop").click(function() {
+        $(".lvl-3-content-002").hide();
+		$(".lvl-3-content-003").fadeIn("fast");
+		$(".lvl-3-content-004").hide();
+    });
+
+        $(".item-lvl2-004-desktop").click(function() {
+        $(".lvl-3-content-002").hide();
+		$(".lvl-3-content-003").hide();
+		$(".lvl-3-content-004").fadeIn("fast");
+    });
+
+        $(".item-lvl2-005-desktop").click(function() {
+		$(".lvl-3-content-005").fadeIn("fast");
+    });
+
+        $(".item-lvl2-006-desktop").click(function() {
+		$(".lvl-3-content-006").fadeIn("fast");
+    });
+
+        $(".item-lvl2-007-desktop").click(function() {
+		$(".lvl-3-content-007").fadeIn("fast");
+		$(".lvl-3-content-008").hide();
+    });
+
+        $(".item-lvl2-008-desktop").click(function() {
+		$(".lvl-3-content-007").hide();
+		$(".lvl-3-content-008").fadeIn("fast");
+    });
+	//
 
 	$(".item-single").click(function() {
         $(".lvl-2-content-001").hide();
