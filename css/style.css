@@ -1332,9 +1332,9 @@ body.sidebar-opened {
     .serch-panel-mobile {
         display: flex;
         flex-grow: 10;
-        margin-top: 40px;
+        margin-top: 10px;
         margin-left: 10px;
-        margin-right: 10px;
+        margin-right: 40px;
     }
 
     .phone-tablet {
@@ -1381,7 +1381,7 @@ body.sidebar-opened {
         cursor: pointer;
         position: absolute;
         right: 10px;
-        top: 10px;
+        top: 25px;
     }
 
     .close-search-mobile img {
