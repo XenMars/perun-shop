@@ -181,7 +181,7 @@ $(document).ready(function() {
     
         $(".item-002").click(function() {
         $(".lvl-2-content-001").hide();
-        $(".lvl-2-content-002").fadeIn("slow");
+        $(".lvl-2-content-002").animate({left:0, opacity:"show"}, 2500);
 		$(".lvl-2-content-003").hide();
 		$(".lvl-2-content-004").hide();
 		$(".lvl-2-content-005").hide();
