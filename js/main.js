@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 		$(".item-001").mouseover(function() {
-        $(".lvl-2-content-001").fadeTo('slow', 1);
+        $(".lvl-2-content-001").fadeTo('fast', 1);
         $(".lvl-2-content-002").hide();
 		$(".lvl-2-content-003").hide();
 		$(".lvl-2-content-004").hide();
@@ -169,7 +169,7 @@ $(document).ready(function() {
     });
 
 		$(".item-001").click(function() {
-        $(".lvl-2-content-001").fadeTo('slow', 1);
+        $(".lvl-2-content-001").fadeTo('fast', 1);
 		$(".lvl-2-content-002").hide();
 		$(".lvl-2-content-003").hide();
 		$(".lvl-2-content-004").hide();
