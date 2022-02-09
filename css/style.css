@@ -1088,7 +1088,7 @@ body.sidebar-opened {
 
 .search-mobile {
     margin-right: 10px;
-    display: block;
+    display: none;
 }
 
 .search-mobile-fullscreen {
@@ -1130,13 +1130,13 @@ body.sidebar-opened {
     margin-left: 5px;
 }
 
-    .serch-panel-mobile {
-        display: flex;
-        flex-grow: 10;
-        margin-top: 10px;
-        margin-left: 10px;
-        margin-right: 50px;
-    }
+.serch-panel-mobile {
+    display: flex;
+    flex-grow: 10;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 50px;
+}
 
 @media (max-width: 1440px) {
 
@@ -1253,6 +1253,7 @@ body.sidebar-opened {
 
     .search-mobile {
         margin-right: 15px;
+        display: block;
     }
 
     .menu-mobile-heder {
