@@ -756,9 +756,9 @@ $(document).ready(function(){
 
 $(document).ready(function(){
 	$('.search-mobile').click(function(){
-  		$(".search-mobile-fullscreen").css("display", "flex");
+  		$(".search-mobile-fullscreen-container").css("display", "block");
 	});
 	$('.close-search-mobile').click(function(){
-  $(".search-mobile-fullscreen").css("display", "none");
+  $(".search-mobile-fullscreen-container").css("display", "none");
 });
 });
