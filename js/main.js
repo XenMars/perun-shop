@@ -351,7 +351,7 @@ $('.nav-icon3').click(function() {
 
 
 $(".back-mobile-button-001").click(function() {
-    $(".lvl-2-content-001").fadeToggle('slow');
+    $(".lvl-2-content-001").fadeToggle(2500);
 	return false;
 });
 
