@@ -169,7 +169,7 @@ $(document).ready(function() {
     });
 
 		$(".item-001").click(function() {
-        $(".lvl-2-content-001").animate({left:0, opacity:"show"}, 2500);
+        $(".lvl-2-content-001").animate({left:0, opacity:"show"}, 500);
 		$(".lvl-2-content-002").hide();
 		$(".lvl-2-content-003").hide();
 		$(".lvl-2-content-004").hide();
@@ -181,7 +181,7 @@ $(document).ready(function() {
     
         $(".item-002").click(function() {
         $(".lvl-2-content-001").hide();
-        $(".lvl-2-content-002").animate({left:0, opacity:"show"}, 2500);
+        $(".lvl-2-content-002").animate({left:0, opacity:"show"}, 500);
 		$(".lvl-2-content-003").hide();
 		$(".lvl-2-content-004").hide();
 		$(".lvl-2-content-005").hide();
@@ -351,7 +351,7 @@ $('.nav-icon3').click(function() {
 
 
 $(".back-mobile-button-001").click(function() {
-    $(".lvl-2-content-001").fadeToggle('solow');
+    $(".lvl-2-content-001").fadeToggle('slow');
 	return false;
 });
 
